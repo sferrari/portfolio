@@ -9,14 +9,14 @@ include 'header.html';
     <div class="jumbotron">
       <div class="container">
         <h1>Get in touch</h1>
-        <p>You can reach me through <a href="https://twitter.com/_sferrari">Twitter</a> and <a href="http://linkd.in/1aqZUGj">LinkedIn</a>, or you can fill out the form below to send me an email. Thanks!</p>
+        <p>You can reach me through <a href="http://linkd.in/1aqZUGj">LinkedIn</a> and <a href="https://twitter.com/_sferrari">Twitter</a>, or you can fill out the form below to send me an email. Thanks!</p>
         
       </div>
     </div>
 
     <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
+      <div style="max-width: 30rem">
+        
 
           <h2>Send me an email</h2>
               
@@ -38,39 +38,40 @@ include 'header.html';
           // display form if user has not clicked submit
           if (!isset($_POST["submit"])) {
             ?>
-            <form role="form" method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
             
+        <form role="form" method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+         <fieldset>
           <div class="form-group">
-            <label class="control-label" for="name">Your name</label>
-            <input id="textinput" name="name" type="text" placeholder="Enter your name" class="form-control" required="">  
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" class="form-control" required="">  
           </div>
 
           <!-- Text input-->
           <div class="form-group">
-            <label class="control-label" for="textinput">Your email</label>
-              <input id="textinput" name="from" type="email" placeholder="Enter your email address" class="form-control" required="">
+            <label class="control-label" for="emailAddress">Your email</label>
+              <input id="emailAddress" name="from" type="email" class="form-control" required="">
           </div>
 
           <!-- Text input-->
           <div class="form-group">
-            <label class="control-label" for="textinput">Subject</label>
-              <input id="textinput" name="subject" type="text" placeholder="What do you want to talk about?" class="form-control" required="">
+            <label class="control-label" for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" class="form-control" required="">
           </div>
 
           <!-- Textarea -->
           <div class="form-group">
-            <label class="control-label" for="textarea" >Message</label>
-              <textarea rows="10"  id="textarea" name="message" class="form-control" placeholder="Type your message here."></textarea>
+            <label class="control-label" for="message">Message</label>
+              <textarea rows="3"  id="message" name="message" class="form-control"></textarea>
           </div>
 
           <!-- Button -->
           <div class="control-group">
             <label class="control-label" for="singlebutton"></label>
-            <button type="submit" id="singlebutton" name="submit" value="Send Email" class="btn btn-primary">Send</button>
+            <button type="submit" id="singlebutton" name="submit" value="Send Email" class="btn btn-outline-primary" style="margin-bottom:5px;" >Send Email</button>
           </div>
 
-
-          </form>
+          </fieldset>
+        </form>
 
 
           <?php 
@@ -95,18 +96,7 @@ include 'header.html';
         }
         ?>
 
-
-
   </div>
-  </div>
-
-      
-<!-- <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
-  From: <input type="text" name="from"><br>
-  Subject: <input type="text" name="subject"><br>
-  Message: <textarea rows="10" cols="40" name="message"></textarea><br>
-  <input type="submit" name="submit" value="Submit Feedback">
-  </form> -->
 
 
 <?php

@@ -1,0 +1,5273 @@
+﻿$axure.loadCurrentPage({
+  "url":"lttn_homepage.html",
+  "generationDate":new Date(1398052252373.84),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"DroplistOption",
+"ZipCode",
+"NewZipCode"],
+  "page":{
+    "packageId":"baeef03c278046ac85151d76fcc9517e",
+    "type":"Axure:Page",
+    "name":"LTTN Homepage",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"center",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFF000000},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"Case 1<br> (If length of value of variable NewZipCode is less than &quot;1&quot;)",
+            "isNewIfGroup":false,
+            "condition":{
+              "exprType":"binaryOp",
+              "op":"<",
+              "leftExpr":{
+                "exprType":"fcall",
+                "functionName":"GetGlobalVariableLength",
+                "arguments":[{
+                    "exprType":"globalVariableLiteral",
+                    "variableName":"NewZipCode"}]},
+              "rightExpr":{
+                "exprType":"stringLiteral",
+                "value":"1",
+                "stos":[]}},
+            "actions":[{
+                "action":"setFunction",
+                "description":"Set text on NewZipCodeTextField equal to value of ZipCode",
+                "expr":{
+                  "exprType":"block",
+                  "subExprs":[{
+                      "exprType":"fcall",
+                      "functionName":"SetWidgetFormText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["ba3e18f3f2774c9f80be108d9eedb33e"]},
+{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"ZipCode"}]}]}]}},
+{
+                "action":"wait",
+                "description":"Wait 1000 ms",
+                "waitTime":1000},
+{
+                "action":"fadeWidget",
+                "description":"Show Craigslist1 fade 2000 ms,<br>Craigslist1Icon fade 2000 ms",
+                "objectsToFades":[{
+                    "objectPath":["6083687cc2fc4a708a3fcc5b3f8a9591"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}},
+{
+                    "objectPath":["9bbd71e3738d4a06a36114161b6e86b5"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}}]},
+{
+                "action":"wait",
+                "description":"Wait 2000 ms",
+                "waitTime":2000},
+{
+                "action":"fadeWidget",
+                "description":"Show Tweet1 fade 2000 ms,<br>Tweet1Icon fade 2000 ms",
+                "objectsToFades":[{
+                    "objectPath":["1e05a89e46de4a569104295263705050"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}},
+{
+                    "objectPath":["bbb4c6ac2cbf4514bfd26c4f0e5665d5"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}}]},
+{
+                "action":"wait",
+                "description":"Wait 2000 ms",
+                "waitTime":2000},
+{
+                "action":"fadeWidget",
+                "description":"Show Tweet2Real fade 2000 ms,<br>Tweet2RealIcon fade 2000 ms",
+                "objectsToFades":[{
+                    "objectPath":["aa967e1fa8834466a5bfc614c858d9e7"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}},
+{
+                    "objectPath":["47a82aadd3d144699616afd2fd547301"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}}]},
+{
+                "action":"wait",
+                "description":"Wait 2000 ms",
+                "waitTime":2000},
+{
+                "action":"fadeWidget",
+                "description":"Show Flickr1Bubble fade 2000 ms,<br>Flickr1Icon fade 2000 ms",
+                "objectsToFades":[{
+                    "objectPath":["6c747797f75246bfac816a7c3f0b5cab"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}},
+{
+                    "objectPath":["c7d91428babb41928f34f005e02f557a"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}}]},
+{
+                "action":"wait",
+                "description":"Wait 2000 ms",
+                "waitTime":2000},
+{
+                "action":"fadeWidget",
+                "description":"Show Tweet2Bubble,<br>Tweet2Icon fade 2000 ms",
+                "objectsToFades":[{
+                    "objectPath":["041c509f30914672bd110efc816bd865"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "showType":"none"}}},
+{
+                    "objectPath":["133ecc48fc0144479ce6237170357350"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}}]},
+{
+                "action":"wait",
+                "description":"Wait 2000 ms",
+                "waitTime":2000},
+{
+                "action":"fadeWidget",
+                "description":"Show Flickr2Icon fade 2000 ms,<br>Flickr2Bubble fade 2000 ms",
+                "objectsToFades":[{
+                    "objectPath":["cecfde3e522a40f78d5cd2f5eb99dd52"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}},
+{
+                    "objectPath":["c84ef41ed4d94927ac0cf74ace5ff25b"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}}]}]},
+{
+            "description":"Case 2<br> (Else If length of value of variable NewZipCode is greater than or equals &quot;1&quot;)",
+            "isNewIfGroup":false,
+            "condition":{
+              "exprType":"binaryOp",
+              "op":">=",
+              "leftExpr":{
+                "exprType":"fcall",
+                "functionName":"GetGlobalVariableLength",
+                "arguments":[{
+                    "exprType":"globalVariableLiteral",
+                    "variableName":"NewZipCode"}]},
+              "rightExpr":{
+                "exprType":"stringLiteral",
+                "value":"1",
+                "stos":[]}},
+            "actions":[{
+                "action":"setFunction",
+                "description":"Set text on NewZipCodeTextField equal to value of NewZipCode",
+                "expr":{
+                  "exprType":"block",
+                  "subExprs":[{
+                      "exprType":"fcall",
+                      "functionName":"SetWidgetFormText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["ba3e18f3f2774c9f80be108d9eedb33e"]},
+{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"NewZipCode"}]}]}]}},
+{
+                "action":"wait",
+                "description":"Wait 1000 ms",
+                "waitTime":1000},
+{
+                "action":"fadeWidget",
+                "description":"Show Craigslist1 fade 2000 ms,<br>Craigslist1Icon fade 2000 ms",
+                "objectsToFades":[{
+                    "objectPath":["6083687cc2fc4a708a3fcc5b3f8a9591"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}},
+{
+                    "objectPath":["9bbd71e3738d4a06a36114161b6e86b5"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}}]},
+{
+                "action":"wait",
+                "description":"Wait 2000 ms",
+                "waitTime":2000},
+{
+                "action":"fadeWidget",
+                "description":"Show Tweet1 fade 2000 ms,<br>Tweet1Icon fade 2000 ms",
+                "objectsToFades":[{
+                    "objectPath":["1e05a89e46de4a569104295263705050"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}},
+{
+                    "objectPath":["bbb4c6ac2cbf4514bfd26c4f0e5665d5"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}}]},
+{
+                "action":"wait",
+                "description":"Wait 2000 ms",
+                "waitTime":2000},
+{
+                "action":"fadeWidget",
+                "description":"Show Tweet2Real fade 2000 ms,<br>Tweet2RealIcon fade 2000 ms",
+                "objectsToFades":[{
+                    "objectPath":["aa967e1fa8834466a5bfc614c858d9e7"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}},
+{
+                    "objectPath":["47a82aadd3d144699616afd2fd547301"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}}]},
+{
+                "action":"wait",
+                "description":"Wait 2000 ms",
+                "waitTime":2000},
+{
+                "action":"fadeWidget",
+                "description":"Show Flickr1Bubble fade 2000 ms,<br>Flickr1Icon fade 2000 ms",
+                "objectsToFades":[{
+                    "objectPath":["6c747797f75246bfac816a7c3f0b5cab"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}},
+{
+                    "objectPath":["c7d91428babb41928f34f005e02f557a"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}}]},
+{
+                "action":"wait",
+                "description":"Wait 2000 ms",
+                "waitTime":2000},
+{
+                "action":"fadeWidget",
+                "description":"Show Tweet2Bubble,<br>Tweet2Icon fade 2000 ms",
+                "objectsToFades":[{
+                    "objectPath":["041c509f30914672bd110efc816bd865"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "showType":"none"}}},
+{
+                    "objectPath":["133ecc48fc0144479ce6237170357350"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}}]},
+{
+                "action":"wait",
+                "description":"Wait 2000 ms",
+                "waitTime":2000},
+{
+                "action":"fadeWidget",
+                "description":"Show Flickr2Icon fade 2000 ms,<br>Flickr2Bubble fade 2000 ms",
+                "objectsToFades":[{
+                    "objectPath":["cecfde3e522a40f78d5cd2f5eb99dd52"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}},
+{
+                    "objectPath":["c84ef41ed4d94927ac0cf74ace5ff25b"],
+                    "fadeInfo":{
+                      "fadeType":"show",
+                      "options":{
+                        "easing":"fade",
+                        "duration":2000,
+                        "showType":"none"}}}]}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"6083687cc2fc4a708a3fcc5b3f8a9591",
+          "label":"Craigslist1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF000000,
+              "opacity":1},
+            "stateStyles":{
+              "mouseOver":{
+}},
+            "location":{
+              "x":320,
+              "y":126},
+            "size":{
+              "width":174,
+              "height":163},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"40badeed516e4aa8b92a9b361fca6b0b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF000000,
+                  "opacity":1},
+                "stateStyles":{
+                  "mouseOver":{
+}},
+                "location":{
+                  "x":320,
+                  "y":126},
+                "size":{
+                  "width":174,
+                  "height":163},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set text on This equal to &quot;&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":true,
+                                "isFocused":false,
+                                "isTarget":false},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"Show Craigslist1Icon",
+                      "objectsToFades":[{
+                          "objectPath":["9bbd71e3738d4a06a36114161b6e86b5"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"moveWidget",
+                      "description":"Move This by (0,-10) swing 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["6083687cc2fc4a708a3fcc5b3f8a9591"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"swing",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move This by (0,10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["6083687cc2fc4a708a3fcc5b3f8a9591"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move Craigslist1Icon by (0,-10) swing 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["9bbd71e3738d4a06a36114161b6e86b5"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"swing",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move Craigslist1Icon by (0,10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["9bbd71e3738d4a06a36114161b6e86b5"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/lttn_homepage/craigslist1_u0.png"}},
+{
+          "id":"8a4d6ebf60ae424cb7ea60f62a7a64cd",
+          "label":"BroadcastBubble",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontName":"'AmericanTypewriter', 'American Typewriter'",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "stateStyles":{
+              "mouseOver":{
+}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF009939},
+            "location":{
+              "x":570,
+              "y":159},
+            "size":{
+              "width":162,
+              "height":164},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0b843d7219be440bbee65eff8bbf2622",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "stateStyles":{
+                  "mouseOver":{
+}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF009939},
+                "location":{
+                  "x":570,
+                  "y":159},
+                "size":{
+                  "width":162,
+                  "height":164},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/lttn_homepage/broadcastbubble_u2.png"}},
+{
+          "id":"016fad29c07944c481aa725150e96ff1",
+          "label":"TwitterBubblePanel",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":125,
+              "y":361.5},
+            "size":{
+              "width":10,
+              "height":10}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"825e8199b8024d0c8bc14a2c4b40df90",
+              "label":"State2",
+              "type":"Axure:PanelDiagram",
+              "objects":[],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"1e05a89e46de4a569104295263705050",
+          "label":"Tweet1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "stateStyles":{
+              "mouseOver":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"linearGradient",
+                  "colors":[{
+                      "color":0x7F4099FF},
+{
+                      "color":0x7F4099FF},
+{
+                      "color":0xFF000000},
+{
+                      "color":0xFF000000}]}}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF4099FF},
+            "location":{
+              "x":125,
+              "y":362},
+            "size":{
+              "width":122,
+              "height":121},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5a6dd1bc27944b7eb5bb49323f025665",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "stateStyles":{
+                  "mouseOver":{
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFFFF,
+                      "opacity":1},
+                    "fill":{
+                      "fillType":"linearGradient",
+                      "colors":[{
+                          "color":0x7F4099FF},
+{
+                          "color":0x7F4099FF},
+{
+                          "color":0xFF000000},
+{
+                          "color":0xFF000000}]}}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF4099FF},
+                "location":{
+                  "x":125,
+                  "y":362},
+                "size":{
+                  "width":122,
+                  "height":121},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set text on Tweet1 equal to &quot;&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["5a6dd1bc27944b7eb5bb49323f025665"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"Show Tweet1Icon",
+                      "objectsToFades":[{
+                          "objectPath":["bbb4c6ac2cbf4514bfd26c4f0e5665d5"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"moveWidget",
+                      "description":"Move This by (,-10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["1e05a89e46de4a569104295263705050"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move This by (0,10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["1e05a89e46de4a569104295263705050"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move Tweet1Icon by (0,-10) swing 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["bbb4c6ac2cbf4514bfd26c4f0e5665d5"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"swing",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move Tweet1Icon by (0,10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["bbb4c6ac2cbf4514bfd26c4f0e5665d5"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/lttn_homepage/tweet1_u5.png",
+            "mouseOver~":"images/lttn_homepage/tweet1_u5_mouseOver.png"}},
+{
+          "id":"9c61218609734e3bb17005400b7e27fd",
+          "label":"droplist",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'AmericanTypewriter', 'American Typewriter'",
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "location":{
+              "x":10,
+              "y":20},
+            "size":{
+              "width":120,
+              "height":22}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"96ba8a8c27bd4ad48e75779bd943f2b5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "location":{
+                  "x":10,
+                  "y":20},
+                "size":{
+                  "width":120,
+                  "height":22}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Show droplist panel",
+                      "objectsToFades":[{
+                          "objectPath":["502d5dbf00c74745a42eb6a9f5bff87b"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/lttn_homepage/droplist_u7.png"}},
+{
+          "id":"10f1bebd1a294ab7a41711917d885e00",
+          "label":"droplist label",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'AmericanTypewriter', 'American Typewriter'",
+            "horizontalAlignment":"left",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF424242,
+              "opacity":1},
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "stateStyles":{
+              "mouseOver":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFC9C9C9}},
+              "selected":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFC9C9C9}}},
+            "location":{
+              "x":14,
+              "y":24},
+            "size":{
+              "width":96,
+              "height":14},
+            "borderWidth":"-1",
+            "cornerRadiusTopLeft":"1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"501c778ac8da41c4888a3ee515f0e822",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                "horizontalAlignment":"left",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF424242,
+                  "opacity":1},
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "stateStyles":{
+                  "mouseOver":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFC9C9C9}},
+                  "selected":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFC9C9C9}}},
+                "location":{
+                  "x":14,
+                  "y":24},
+                "size":{
+                  "width":96,
+                  "height":14},
+                "borderWidth":"-1",
+                "cornerRadiusTopLeft":"1"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Show droplist panel",
+                      "objectsToFades":[{
+                          "objectPath":["502d5dbf00c74745a42eb6a9f5bff87b"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/lttn_homepage/droplist_label_u9.png",
+            "selected~":"images/lttn_homepage/droplist_label_u9_selected.png",
+            "mouseOver~":"images/lttn_homepage/droplist_label_u9_selected.png"}},
+{
+          "id":"502d5dbf00c74745a42eb6a9f5bff87b",
+          "label":"droplist panel",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":11,
+              "y":41},
+            "size":{
+              "width":123,
+              "height":259},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"54204e161cf741a1af22b245ed9e4250",
+              "label":"droplist options",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"72336619c02b46c0b45908fb2def6325",
+                  "label":"droplist container box",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "size":{
+                      "width":120,
+                      "height":250}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"3e5cdf289f714df0a50c81e41bfd1cac",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                        "size":{
+                          "width":120,
+                          "height":250}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/lttn_homepage/droplist_container_box_u12.png"}},
+{
+                  "id":"6c140e938c99499dab3d3af6b27366f1",
+                  "label":"text explanation",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Calibri-Bold', 'Calibri Bold', 'Calibri'",
+                    "fontSize":"16px",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF424242,
+                      "opacity":1},
+                    "location":{
+                      "x":370,
+                      "y":8},
+                    "size":{
+                      "width":500,
+                      "height":247},
+                    "rotation":"0",
+                    "textRotation":"0"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"91d4614139054dcd84d89ea09fe962f6",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Calibri-Bold', 'Calibri Bold', 'Calibri'",
+                        "fontSize":"16px",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF424242,
+                          "opacity":1},
+                        "location":{
+                          "x":370,
+                          "y":8},
+                        "size":{
+                          "width":500,
+                          "height":247},
+                        "rotation":"0",
+                        "textRotation":"0"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
+{
+                  "id":"9e18a68064d94913a32f108c41a1ec0b",
+                  "label":"option 1",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF424242,
+                      "opacity":1},
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFC9C9C9}}},
+                    "location":{
+                      "x":4,
+                      "y":0},
+                    "size":{
+                      "width":112,
+                      "height":20},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"25dc634bce4f441eae0cecb51f8b1e3d",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF424242,
+                          "opacity":1},
+                        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9}}},
+                        "location":{
+                          "x":4,
+                          "y":0},
+                        "size":{
+                          "width":112,
+                          "height":20},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set value of DroplistOption equal to text on option 1 value",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"DroplistOption"},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetWidgetText",
+                                        "arguments":[{
+                                            "exprType":"pathLiteral",
+                                            "isThis":false,
+                                            "isFocused":false,
+                                            "isTarget":false,
+                                            "value":["1c50649a8f7f46c780f83e1dfa495939"]}]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"Set text on droplist label equal to &quot;[[DroplistOption]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["501c778ac8da41c4888a3ee515f0e822"]},
+{
+                                        "exprType":"htmlLiteral",
+                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'ScoderHand', 'Scoder Hand';font-weight:400;font-style:normal;font-size:13px;color:#000000;text-align:left;line-height:normal;\">[[DroplistOption]]</span></p>",
+                                        "stos":[{
+                                            "sto":"var",
+                                            "name":"droplistoption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":false}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"Hide droplist panel",
+                              "objectsToFades":[{
+                                  "objectPath":["502d5dbf00c74745a42eb6a9f5bff87b"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"Show BroadcastBubble fade 2000 ms",
+                              "objectsToFades":[{
+                                  "objectPath":["8a4d6ebf60ae424cb7ea60f62a7a64cd"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "easing":"fade",
+                                      "duration":2000,
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"Set text on BroadcastBubble equal to value of DroplistOption",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["0b843d7219be440bbee65eff8bbf2622"]},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetGlobalVariableValue",
+                                        "arguments":[{
+                                            "exprType":"globalVariableLiteral",
+                                            "variableName":"DroplistOption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/lttn_homepage/option_1_u16.png",
+                    "mouseOver~":"images/lttn_homepage/option_1_u16_mouseOver.png"}},
+{
+                  "id":"1c50649a8f7f46c780f83e1dfa495939",
+                  "label":"option 1 value",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "location":{
+                      "x":160,
+                      "y":5},
+                    "size":{
+                      "width":180,
+                      "height":17}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"654c7095c3624b81afda20e78068b039",
+                  "label":"option 2",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF424242,
+                      "opacity":1},
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFC9C9C9}}},
+                    "location":{
+                      "x":4,
+                      "y":20},
+                    "size":{
+                      "width":112,
+                      "height":20},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"b60d8e360d3543d1872231cdc12b7ded",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF424242,
+                          "opacity":1},
+                        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9}}},
+                        "location":{
+                          "x":4,
+                          "y":20},
+                        "size":{
+                          "width":112,
+                          "height":20},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set value of DroplistOption equal to text on option 2 value",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"DroplistOption"},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetWidgetText",
+                                        "arguments":[{
+                                            "exprType":"pathLiteral",
+                                            "isThis":false,
+                                            "isFocused":false,
+                                            "isTarget":false,
+                                            "value":["27f000fde55b42268c7717f04c6a607c"]}]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"Set text on droplist label equal to &quot;[[DroplistOption]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["501c778ac8da41c4888a3ee515f0e822"]},
+{
+                                        "exprType":"htmlLiteral",
+                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'ScoderHand', 'Scoder Hand';font-weight:400;font-style:normal;font-size:13px;color:#000000;text-align:left;line-height:normal;\">[[DroplistOption]]</span></p>",
+                                        "stos":[{
+                                            "sto":"var",
+                                            "name":"droplistoption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":false}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"Hide droplist panel",
+                              "objectsToFades":[{
+                                  "objectPath":["502d5dbf00c74745a42eb6a9f5bff87b"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"Show BroadcastBubble fade 2000 ms",
+                              "objectsToFades":[{
+                                  "objectPath":["8a4d6ebf60ae424cb7ea60f62a7a64cd"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "easing":"fade",
+                                      "duration":2000,
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"Set text on BroadcastBubble equal to value of DroplistOption",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["0b843d7219be440bbee65eff8bbf2622"]},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetGlobalVariableValue",
+                                        "arguments":[{
+                                            "exprType":"globalVariableLiteral",
+                                            "variableName":"DroplistOption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/lttn_homepage/option_1_u16.png",
+                    "mouseOver~":"images/lttn_homepage/option_1_u16_mouseOver.png"}},
+{
+                  "id":"27f000fde55b42268c7717f04c6a607c",
+                  "label":"option 2 value",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "location":{
+                      "x":160,
+                      "y":25},
+                    "size":{
+                      "width":180,
+                      "height":16}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"5a063af889444442aff4f8cf2c96ebb8",
+                  "label":"option 3",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF424242,
+                      "opacity":1},
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFC9C9C9}}},
+                    "location":{
+                      "x":4,
+                      "y":40},
+                    "size":{
+                      "width":112,
+                      "height":20},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"96fb49d7992f4bc4bb8f7ccf73976004",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF424242,
+                          "opacity":1},
+                        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9}}},
+                        "location":{
+                          "x":4,
+                          "y":40},
+                        "size":{
+                          "width":112,
+                          "height":20},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set value of DroplistOption equal to text on option 3 value",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"DroplistOption"},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetWidgetText",
+                                        "arguments":[{
+                                            "exprType":"pathLiteral",
+                                            "isThis":false,
+                                            "isFocused":false,
+                                            "isTarget":false,
+                                            "value":["e2e563ae3d1b4c6495cfc0e20dced7f3"]}]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"Set text on droplist label equal to &quot;[[DroplistOption]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["501c778ac8da41c4888a3ee515f0e822"]},
+{
+                                        "exprType":"htmlLiteral",
+                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'ScoderHand', 'Scoder Hand';font-weight:400;font-style:normal;font-size:13px;color:#000000;text-align:left;line-height:normal;\">[[DroplistOption]]</span></p>",
+                                        "stos":[{
+                                            "sto":"var",
+                                            "name":"droplistoption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":false}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"Hide droplist panel",
+                              "objectsToFades":[{
+                                  "objectPath":["502d5dbf00c74745a42eb6a9f5bff87b"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"Show BroadcastBubble fade 2000 ms",
+                              "objectsToFades":[{
+                                  "objectPath":["8a4d6ebf60ae424cb7ea60f62a7a64cd"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "easing":"fade",
+                                      "duration":2000,
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"Set text on BroadcastBubble equal to value of DroplistOption",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["0b843d7219be440bbee65eff8bbf2622"]},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetGlobalVariableValue",
+                                        "arguments":[{
+                                            "exprType":"globalVariableLiteral",
+                                            "variableName":"DroplistOption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/lttn_homepage/option_1_u16.png",
+                    "mouseOver~":"images/lttn_homepage/option_1_u16_mouseOver.png"}},
+{
+                  "id":"e2e563ae3d1b4c6495cfc0e20dced7f3",
+                  "label":"option 3 value",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "location":{
+                      "x":160,
+                      "y":45},
+                    "size":{
+                      "width":180,
+                      "height":16}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"0689ebc5ac684a399d756550c4bd1dbe",
+                  "label":"option 4",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF424242,
+                      "opacity":1},
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFC9C9C9}}},
+                    "location":{
+                      "x":4,
+                      "y":60},
+                    "size":{
+                      "width":112,
+                      "height":20},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"44f6bcfe71244e41a7dc3908f2874691",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF424242,
+                          "opacity":1},
+                        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9}}},
+                        "location":{
+                          "x":4,
+                          "y":60},
+                        "size":{
+                          "width":112,
+                          "height":20},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set value of DroplistOption equal to text on option 4 value",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"DroplistOption"},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetWidgetText",
+                                        "arguments":[{
+                                            "exprType":"pathLiteral",
+                                            "isThis":false,
+                                            "isFocused":false,
+                                            "isTarget":false,
+                                            "value":["28a1b00f00e0438d9ab2d58e85b01bd7"]}]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"Set text on droplist label equal to &quot;[[DroplistOption]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["501c778ac8da41c4888a3ee515f0e822"]},
+{
+                                        "exprType":"htmlLiteral",
+                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'ScoderHand', 'Scoder Hand';font-weight:400;font-style:normal;font-size:13px;color:#000000;text-align:left;line-height:normal;\">[[DroplistOption]]</span></p>",
+                                        "stos":[{
+                                            "sto":"var",
+                                            "name":"droplistoption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":false}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"Hide droplist panel",
+                              "objectsToFades":[{
+                                  "objectPath":["502d5dbf00c74745a42eb6a9f5bff87b"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"Show BroadcastBubble fade 2000 ms",
+                              "objectsToFades":[{
+                                  "objectPath":["8a4d6ebf60ae424cb7ea60f62a7a64cd"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "easing":"fade",
+                                      "duration":2000,
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"Set text on BroadcastBubble equal to value of DroplistOption",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["0b843d7219be440bbee65eff8bbf2622"]},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetGlobalVariableValue",
+                                        "arguments":[{
+                                            "exprType":"globalVariableLiteral",
+                                            "variableName":"DroplistOption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/lttn_homepage/option_1_u16.png",
+                    "mouseOver~":"images/lttn_homepage/option_1_u16_mouseOver.png"}},
+{
+                  "id":"28a1b00f00e0438d9ab2d58e85b01bd7",
+                  "label":"option 4 value",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "location":{
+                      "x":160,
+                      "y":65},
+                    "size":{
+                      "width":180,
+                      "height":16}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"4c26a1738aba416ca504268214683d12",
+                  "label":"option 5",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF424242,
+                      "opacity":1},
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFC9C9C9}}},
+                    "location":{
+                      "x":4,
+                      "y":80},
+                    "size":{
+                      "width":112,
+                      "height":20},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"50393b1206e746b9901ae1e0729ea4a4",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF424242,
+                          "opacity":1},
+                        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9}}},
+                        "location":{
+                          "x":4,
+                          "y":80},
+                        "size":{
+                          "width":112,
+                          "height":20},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set value of DroplistOption equal to text on option 5 value",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"DroplistOption"},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetWidgetText",
+                                        "arguments":[{
+                                            "exprType":"pathLiteral",
+                                            "isThis":false,
+                                            "isFocused":false,
+                                            "isTarget":false,
+                                            "value":["72503b773521438eb4a6c32055e7ddcf"]}]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"Set text on droplist label equal to &quot;[[DroplistOption]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["501c778ac8da41c4888a3ee515f0e822"]},
+{
+                                        "exprType":"htmlLiteral",
+                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'ScoderHand', 'Scoder Hand';font-weight:400;font-style:normal;font-size:13px;color:#000000;text-align:left;line-height:normal;\">[[DroplistOption]]</span></p>",
+                                        "stos":[{
+                                            "sto":"var",
+                                            "name":"droplistoption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":false}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"Hide droplist panel",
+                              "objectsToFades":[{
+                                  "objectPath":["502d5dbf00c74745a42eb6a9f5bff87b"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"Show BroadcastBubble fade 2000 ms",
+                              "objectsToFades":[{
+                                  "objectPath":["8a4d6ebf60ae424cb7ea60f62a7a64cd"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "easing":"fade",
+                                      "duration":2000,
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"Set text on BroadcastBubble equal to value of DroplistOption",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["0b843d7219be440bbee65eff8bbf2622"]},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetGlobalVariableValue",
+                                        "arguments":[{
+                                            "exprType":"globalVariableLiteral",
+                                            "variableName":"DroplistOption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/lttn_homepage/option_1_u16.png",
+                    "mouseOver~":"images/lttn_homepage/option_1_u16_mouseOver.png"}},
+{
+                  "id":"72503b773521438eb4a6c32055e7ddcf",
+                  "label":"option 5 value",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "location":{
+                      "x":160,
+                      "y":84},
+                    "size":{
+                      "width":180,
+                      "height":17}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"e4f541077ea149a98514189f2988483e",
+                  "label":"option 6",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF424242,
+                      "opacity":1},
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFC9C9C9}}},
+                    "location":{
+                      "x":4,
+                      "y":100},
+                    "size":{
+                      "width":112,
+                      "height":20},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"4ae4763a5c594e31841215c4b89f8db2",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF424242,
+                          "opacity":1},
+                        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9}}},
+                        "location":{
+                          "x":4,
+                          "y":100},
+                        "size":{
+                          "width":112,
+                          "height":20},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set value of DroplistOption equal to text on option 6 value",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"DroplistOption"},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetWidgetText",
+                                        "arguments":[{
+                                            "exprType":"pathLiteral",
+                                            "isThis":false,
+                                            "isFocused":false,
+                                            "isTarget":false,
+                                            "value":["747052abc3724e419070c3a0619be996"]}]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"Set text on droplist label equal to &quot;[[DroplistOption]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["501c778ac8da41c4888a3ee515f0e822"]},
+{
+                                        "exprType":"htmlLiteral",
+                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'ScoderHand', 'Scoder Hand';font-weight:400;font-style:normal;font-size:13px;color:#000000;text-align:left;line-height:normal;\">[[DroplistOption]]</span></p>",
+                                        "stos":[{
+                                            "sto":"var",
+                                            "name":"droplistoption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":false}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"Hide droplist panel",
+                              "objectsToFades":[{
+                                  "objectPath":["502d5dbf00c74745a42eb6a9f5bff87b"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"Show BroadcastBubble fade 2000 ms",
+                              "objectsToFades":[{
+                                  "objectPath":["8a4d6ebf60ae424cb7ea60f62a7a64cd"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "easing":"fade",
+                                      "duration":2000,
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"Set text on BroadcastBubble equal to value of DroplistOption",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["0b843d7219be440bbee65eff8bbf2622"]},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetGlobalVariableValue",
+                                        "arguments":[{
+                                            "exprType":"globalVariableLiteral",
+                                            "variableName":"DroplistOption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/lttn_homepage/option_1_u16.png",
+                    "mouseOver~":"images/lttn_homepage/option_1_u16_mouseOver.png"}},
+{
+                  "id":"747052abc3724e419070c3a0619be996",
+                  "label":"option 6 value",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "location":{
+                      "x":160,
+                      "y":104},
+                    "size":{
+                      "width":180,
+                      "height":17}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"69c2e2a3925c4386a513bbac83b1332a",
+                  "label":"option 7",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF424242,
+                      "opacity":1},
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFC9C9C9}}},
+                    "location":{
+                      "x":4,
+                      "y":120},
+                    "size":{
+                      "width":112,
+                      "height":20},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"fee0f7f8e6084148bdcc3352961cdf4c",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF424242,
+                          "opacity":1},
+                        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9}}},
+                        "location":{
+                          "x":4,
+                          "y":120},
+                        "size":{
+                          "width":112,
+                          "height":20},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set value of DroplistOption equal to text on option 7 value",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"DroplistOption"},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetWidgetText",
+                                        "arguments":[{
+                                            "exprType":"pathLiteral",
+                                            "isThis":false,
+                                            "isFocused":false,
+                                            "isTarget":false,
+                                            "value":["4491b8791533498d8f25fc9554b982ca"]}]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"Set text on droplist label equal to &quot;[[DroplistOption]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["501c778ac8da41c4888a3ee515f0e822"]},
+{
+                                        "exprType":"htmlLiteral",
+                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'ScoderHand', 'Scoder Hand';font-weight:400;font-style:normal;font-size:13px;color:#000000;text-align:left;line-height:normal;\">[[DroplistOption]]</span></p>",
+                                        "stos":[{
+                                            "sto":"var",
+                                            "name":"droplistoption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":false}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"Hide droplist panel",
+                              "objectsToFades":[{
+                                  "objectPath":["502d5dbf00c74745a42eb6a9f5bff87b"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"Show BroadcastBubble fade 2000 ms",
+                              "objectsToFades":[{
+                                  "objectPath":["8a4d6ebf60ae424cb7ea60f62a7a64cd"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "easing":"fade",
+                                      "duration":2000,
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"Set text on BroadcastBubble equal to value of DroplistOption",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["0b843d7219be440bbee65eff8bbf2622"]},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetGlobalVariableValue",
+                                        "arguments":[{
+                                            "exprType":"globalVariableLiteral",
+                                            "variableName":"DroplistOption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/lttn_homepage/option_1_u16.png",
+                    "mouseOver~":"images/lttn_homepage/option_1_u16_mouseOver.png"}},
+{
+                  "id":"4491b8791533498d8f25fc9554b982ca",
+                  "label":"option 7 value",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "location":{
+                      "x":160,
+                      "y":124},
+                    "size":{
+                      "width":180,
+                      "height":17}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"f26d5dfd4f51432d8c218e5b3c335ac2",
+                  "label":"option 8",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF424242,
+                      "opacity":1},
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFC9C9C9}}},
+                    "location":{
+                      "x":4,
+                      "y":140},
+                    "size":{
+                      "width":112,
+                      "height":20},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"74cd873f03dc4514a01e21bc61f0a152",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF424242,
+                          "opacity":1},
+                        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9}}},
+                        "location":{
+                          "x":4,
+                          "y":140},
+                        "size":{
+                          "width":112,
+                          "height":20},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set value of DroplistOption equal to text on option 8 value",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"DroplistOption"},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetWidgetText",
+                                        "arguments":[{
+                                            "exprType":"pathLiteral",
+                                            "isThis":false,
+                                            "isFocused":false,
+                                            "isTarget":false,
+                                            "value":["33bb8ad61a064b6ba8bd12c84b67e3b3"]}]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"Set text on droplist label equal to &quot;[[DroplistOption]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["501c778ac8da41c4888a3ee515f0e822"]},
+{
+                                        "exprType":"htmlLiteral",
+                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'ScoderHand', 'Scoder Hand';font-weight:400;font-style:normal;font-size:13px;color:#000000;text-align:left;line-height:normal;\">[[DroplistOption]]</span></p>",
+                                        "stos":[{
+                                            "sto":"var",
+                                            "name":"droplistoption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":false}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"Hide droplist panel",
+                              "objectsToFades":[{
+                                  "objectPath":["502d5dbf00c74745a42eb6a9f5bff87b"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"Show BroadcastBubble fade 2000 ms",
+                              "objectsToFades":[{
+                                  "objectPath":["8a4d6ebf60ae424cb7ea60f62a7a64cd"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "easing":"fade",
+                                      "duration":2000,
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"Set text on BroadcastBubble equal to value of DroplistOption",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["0b843d7219be440bbee65eff8bbf2622"]},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetGlobalVariableValue",
+                                        "arguments":[{
+                                            "exprType":"globalVariableLiteral",
+                                            "variableName":"DroplistOption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/lttn_homepage/option_1_u16.png",
+                    "mouseOver~":"images/lttn_homepage/option_1_u16_mouseOver.png"}},
+{
+                  "id":"33bb8ad61a064b6ba8bd12c84b67e3b3",
+                  "label":"option 8 value",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "location":{
+                      "x":160,
+                      "y":144},
+                    "size":{
+                      "width":180,
+                      "height":17}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"34ca1819a15d423db8d5563c42d4fb63",
+                  "label":"option 9",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF424242,
+                      "opacity":1},
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFC9C9C9}}},
+                    "location":{
+                      "x":4,
+                      "y":160},
+                    "size":{
+                      "width":112,
+                      "height":20},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"ba1fbf4dc4264c7c86a39244e9afa470",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF424242,
+                          "opacity":1},
+                        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9}}},
+                        "location":{
+                          "x":4,
+                          "y":160},
+                        "size":{
+                          "width":112,
+                          "height":20},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set value of DroplistOption equal to text on option 9 value",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"DroplistOption"},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetWidgetText",
+                                        "arguments":[{
+                                            "exprType":"pathLiteral",
+                                            "isThis":false,
+                                            "isFocused":false,
+                                            "isTarget":false,
+                                            "value":["ed702f64b80a435e86f69c1a6d4dcef2"]}]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"Set text on droplist label equal to &quot;[[DroplistOption]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["501c778ac8da41c4888a3ee515f0e822"]},
+{
+                                        "exprType":"htmlLiteral",
+                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'ScoderHand', 'Scoder Hand';font-weight:400;font-style:normal;font-size:13px;color:#000000;text-align:left;line-height:normal;\">[[DroplistOption]]</span></p>",
+                                        "stos":[{
+                                            "sto":"var",
+                                            "name":"droplistoption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":false}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"Hide droplist panel",
+                              "objectsToFades":[{
+                                  "objectPath":["502d5dbf00c74745a42eb6a9f5bff87b"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"Show BroadcastBubble fade 2000 ms",
+                              "objectsToFades":[{
+                                  "objectPath":["8a4d6ebf60ae424cb7ea60f62a7a64cd"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "easing":"fade",
+                                      "duration":2000,
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"Set text on BroadcastBubble equal to value of DroplistOption",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["0b843d7219be440bbee65eff8bbf2622"]},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetGlobalVariableValue",
+                                        "arguments":[{
+                                            "exprType":"globalVariableLiteral",
+                                            "variableName":"DroplistOption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/lttn_homepage/option_1_u16.png",
+                    "mouseOver~":"images/lttn_homepage/option_1_u16_mouseOver.png"}},
+{
+                  "id":"ed702f64b80a435e86f69c1a6d4dcef2",
+                  "label":"option 9 value",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "location":{
+                      "x":160,
+                      "y":164},
+                    "size":{
+                      "width":180,
+                      "height":16}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"d24063f69ce64ed9afeea80f9cc01296",
+                  "label":"option 10",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF424242,
+                      "opacity":1},
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFC9C9C9}}},
+                    "location":{
+                      "x":4,
+                      "y":180},
+                    "size":{
+                      "width":112,
+                      "height":20},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"5b50086f16b4401d86fd7a44c00b7b38",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF424242,
+                          "opacity":1},
+                        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9}}},
+                        "location":{
+                          "x":4,
+                          "y":180},
+                        "size":{
+                          "width":112,
+                          "height":20},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set value of DroplistOption equal to text on option 10 value",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"DroplistOption"},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetWidgetText",
+                                        "arguments":[{
+                                            "exprType":"pathLiteral",
+                                            "isThis":false,
+                                            "isFocused":false,
+                                            "isTarget":false,
+                                            "value":["01010d22298a400a94332017bd8b0af9"]}]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"Set text on droplist label equal to &quot;[[DroplistOption]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["501c778ac8da41c4888a3ee515f0e822"]},
+{
+                                        "exprType":"htmlLiteral",
+                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'ScoderHand', 'Scoder Hand';font-weight:400;font-style:normal;font-size:13px;color:#000000;text-align:left;line-height:normal;\">[[DroplistOption]]</span></p>",
+                                        "stos":[{
+                                            "sto":"var",
+                                            "name":"droplistoption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":false}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"Hide droplist panel",
+                              "objectsToFades":[{
+                                  "objectPath":["502d5dbf00c74745a42eb6a9f5bff87b"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"Show BroadcastBubble fade 2000 ms",
+                              "objectsToFades":[{
+                                  "objectPath":["8a4d6ebf60ae424cb7ea60f62a7a64cd"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "easing":"fade",
+                                      "duration":2000,
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"Set text on BroadcastBubble equal to value of DroplistOption",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["0b843d7219be440bbee65eff8bbf2622"]},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetGlobalVariableValue",
+                                        "arguments":[{
+                                            "exprType":"globalVariableLiteral",
+                                            "variableName":"DroplistOption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/lttn_homepage/option_1_u16.png",
+                    "mouseOver~":"images/lttn_homepage/option_1_u16_mouseOver.png"}},
+{
+                  "id":"01010d22298a400a94332017bd8b0af9",
+                  "label":"option 10 value",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "location":{
+                      "x":160,
+                      "y":184},
+                    "size":{
+                      "width":180,
+                      "height":16}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"01ba0ee77ce844b38254109c27ea3a9a",
+                  "label":"option 11",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF424242,
+                      "opacity":1},
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFC9C9C9}}},
+                    "location":{
+                      "x":4,
+                      "y":200},
+                    "size":{
+                      "width":112,
+                      "height":20},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"784e53f795b2401eb2bcba959ae5d5fb",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF424242,
+                          "opacity":1},
+                        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9}}},
+                        "location":{
+                          "x":4,
+                          "y":200},
+                        "size":{
+                          "width":112,
+                          "height":20},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set value of DroplistOption equal to text on option 11 value",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"DroplistOption"},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetWidgetText",
+                                        "arguments":[{
+                                            "exprType":"pathLiteral",
+                                            "isThis":false,
+                                            "isFocused":false,
+                                            "isTarget":false,
+                                            "value":["5a5d3c30ce0849e3b8ef553a9a81570d"]}]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"Set text on droplist label equal to &quot;[[DroplistOption]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["501c778ac8da41c4888a3ee515f0e822"]},
+{
+                                        "exprType":"htmlLiteral",
+                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'ScoderHand', 'Scoder Hand';font-weight:400;font-style:normal;font-size:13px;color:#000000;text-align:left;line-height:normal;\">[[DroplistOption]]</span></p>",
+                                        "stos":[{
+                                            "sto":"var",
+                                            "name":"droplistoption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":false}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"Hide droplist panel",
+                              "objectsToFades":[{
+                                  "objectPath":["502d5dbf00c74745a42eb6a9f5bff87b"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"Show BroadcastBubble fade 2000 ms",
+                              "objectsToFades":[{
+                                  "objectPath":["8a4d6ebf60ae424cb7ea60f62a7a64cd"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "easing":"fade",
+                                      "duration":2000,
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"Set text on BroadcastBubble equal to value of DroplistOption",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["0b843d7219be440bbee65eff8bbf2622"]},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetGlobalVariableValue",
+                                        "arguments":[{
+                                            "exprType":"globalVariableLiteral",
+                                            "variableName":"DroplistOption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/lttn_homepage/option_1_u16.png",
+                    "mouseOver~":"images/lttn_homepage/option_1_u16_mouseOver.png"}},
+{
+                  "id":"5a5d3c30ce0849e3b8ef553a9a81570d",
+                  "label":"option 11 value",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "location":{
+                      "x":160,
+                      "y":204},
+                    "size":{
+                      "width":180,
+                      "height":16}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"21525fc549e04e748c97b3ad6c407757",
+                  "label":"option 12",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF424242,
+                      "opacity":1},
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFC9C9C9}}},
+                    "location":{
+                      "x":4,
+                      "y":220},
+                    "size":{
+                      "width":112,
+                      "height":20},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"22f2103d7f1e4230bcc3f55f42f0ff81",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF424242,
+                          "opacity":1},
+                        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9}}},
+                        "location":{
+                          "x":4,
+                          "y":220},
+                        "size":{
+                          "width":112,
+                          "height":20},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set value of DroplistOption equal to text on option 12 value",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"DroplistOption"},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetWidgetText",
+                                        "arguments":[{
+                                            "exprType":"pathLiteral",
+                                            "isThis":false,
+                                            "isFocused":false,
+                                            "isTarget":false,
+                                            "value":["386e844ee55e4782ab973cd9ca052692"]}]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"Set text on droplist label equal to &quot;[[DroplistOption]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["501c778ac8da41c4888a3ee515f0e822"]},
+{
+                                        "exprType":"htmlLiteral",
+                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'ScoderHand', 'Scoder Hand';font-weight:400;font-style:normal;font-size:13px;color:#000000;text-align:left;line-height:normal;\">[[DroplistOption]]</span></p>",
+                                        "stos":[{
+                                            "sto":"var",
+                                            "name":"droplistoption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":false}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"Hide droplist panel",
+                              "objectsToFades":[{
+                                  "objectPath":["502d5dbf00c74745a42eb6a9f5bff87b"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"Show BroadcastBubble fade 2000 ms",
+                              "objectsToFades":[{
+                                  "objectPath":["8a4d6ebf60ae424cb7ea60f62a7a64cd"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "easing":"fade",
+                                      "duration":2000,
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"Set text on BroadcastBubble equal to value of DroplistOption",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["0b843d7219be440bbee65eff8bbf2622"]},
+{
+                                        "exprType":"fcall",
+                                        "functionName":"GetGlobalVariableValue",
+                                        "arguments":[{
+                                            "exprType":"globalVariableLiteral",
+                                            "variableName":"DroplistOption"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/lttn_homepage/option_1_u16.png",
+                    "mouseOver~":"images/lttn_homepage/option_1_u16_mouseOver.png"}},
+{
+                  "id":"386e844ee55e4782ab973cd9ca052692",
+                  "label":"option 12 value",
+                  "parentDynamicPanel":"502d5dbf00c74745a42eb6a9f5bff87b",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "location":{
+                      "x":160,
+                      "y":223},
+                    "size":{
+                      "width":180,
+                      "height":17}},
+                  "adaptiveStyles":{
+}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"ff9e3b291bc74c478b1f0068979f7c5e",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"bbb4c6ac2cbf4514bfd26c4f0e5665d5",
+          "label":"Tweet1Icon",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":170,
+              "y":406},
+            "size":{
+              "width":32,
+              "height":32},
+            "visible":false,
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF000000}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"58be50f69bb543d5af6755232e4a18c2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":170,
+                  "y":406},
+                "size":{
+                  "width":32,
+                  "height":32},
+                "visible":false,
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF000000}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Hide This",
+                      "objectsToFades":[{
+                          "objectPath":["bbb4c6ac2cbf4514bfd26c4f0e5665d5"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"setFunction",
+                      "description":"Set text on Tweet1 equal to &quot;Michigan basketball team lost!&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["5a6dd1bc27944b7eb5bb49323f025665"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"Michigan basketball team lost!",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}}]}]},
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/lttn_homepage/tweet1icon_u52.png"}},
+{
+          "id":"c84ef41ed4d94927ac0cf74ace5ff25b",
+          "label":"Flickr2Bubble",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "stateStyles":{
+              "mouseOver":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF000000,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"linearGradient",
+                  "colors":[{
+                      "color":0xFFFF0084},
+{
+                      "color":0xFFFF0084},
+{
+                      "color":0xFF000000},
+{
+                      "color":0xFF000000}]}}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFF0084},
+            "location":{
+              "x":170,
+              "y":179},
+            "size":{
+              "width":122,
+              "height":121},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"410d127555c04cfcb571a811a8fae0f6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "stateStyles":{
+                  "mouseOver":{
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF000000,
+                      "opacity":1},
+                    "fill":{
+                      "fillType":"linearGradient",
+                      "colors":[{
+                          "color":0xFFFF0084},
+{
+                          "color":0xFFFF0084},
+{
+                          "color":0xFF000000},
+{
+                          "color":0xFF000000}]}}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0084},
+                "location":{
+                  "x":170,
+                  "y":179},
+                "size":{
+                  "width":122,
+                  "height":121},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"moveWidget",
+                      "description":"Move This by (0,-10) swing 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["c84ef41ed4d94927ac0cf74ace5ff25b"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"swing",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move This by (0,10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["c84ef41ed4d94927ac0cf74ace5ff25b"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move Flickr2Icon by (0,-10) swing 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["cecfde3e522a40f78d5cd2f5eb99dd52"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"swing",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move Flickr2Icon by (0,10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["cecfde3e522a40f78d5cd2f5eb99dd52"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]}]}]}},
+          "images":{
+            "normal~":"images/lttn_homepage/flickr2bubble_u54.png",
+            "mouseOver~":"images/lttn_homepage/flickr2bubble_u54_mouseOver.png"}},
+{
+          "id":"041c509f30914672bd110efc816bd865",
+          "label":"Tweet2Bubble",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontName":"'AmericanTypewriter', 'American Typewriter'",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "stateStyles":{
+              "mouseOver":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF000000,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0x7F4099FF}}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF4099FF},
+            "location":{
+              "x":680,
+              "y":353},
+            "size":{
+              "width":133,
+              "height":139},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3aaca30f3daa413f8f397a17f2280a63",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "stateStyles":{
+                  "mouseOver":{
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF000000,
+                      "opacity":1},
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0x7F4099FF}}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF4099FF},
+                "location":{
+                  "x":680,
+                  "y":353},
+                "size":{
+                  "width":133,
+                  "height":139},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set text on Tweet1 equal to &quot;&quot;, and<br> text on Tweet2Bubble equal to &quot;&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["5a6dd1bc27944b7eb5bb49323f025665"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["3aaca30f3daa413f8f397a17f2280a63"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"Show Tweet1Icon",
+                      "objectsToFades":[{
+                          "objectPath":["bbb4c6ac2cbf4514bfd26c4f0e5665d5"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"moveWidget",
+                      "description":"Move This by (,-10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["041c509f30914672bd110efc816bd865"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move This by (0,10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["041c509f30914672bd110efc816bd865"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move Tweet2Icon by (0,-10) swing 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["133ecc48fc0144479ce6237170357350"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"swing",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move Tweet2Icon by (0,10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["133ecc48fc0144479ce6237170357350"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/lttn_homepage/tweet2bubble_u56.png",
+            "mouseOver~":"images/lttn_homepage/tweet2bubble_u56_mouseOver.png"}},
+{
+          "id":"133ecc48fc0144479ce6237170357350",
+          "label":"Tweet2Icon",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":730,
+              "y":406},
+            "size":{
+              "width":32,
+              "height":32},
+            "visible":false,
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF000000}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"52ee0d18eadc4c96b3916ba9b12bf965",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":730,
+                  "y":406},
+                "size":{
+                  "width":32,
+                  "height":32},
+                "visible":false,
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF000000}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Hide This",
+                      "objectsToFades":[{
+                          "objectPath":["133ecc48fc0144479ce6237170357350"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"setFunction",
+                      "description":"Set text on Tweet2Bubble equal to &quot;Winter is gone... maybe&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["3aaca30f3daa413f8f397a17f2280a63"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"Winter is gone... maybe",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/lttn_homepage/tweet1icon_u52.png"}},
+{
+          "id":"ffed8c578ed64d32ad63f81ee6ec2f33",
+          "label":"Tweet3Bubble",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "stateStyles":{
+              "mouseOver":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF000000,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0x7F4099FF}}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF4099FF},
+            "location":{
+              "x":732,
+              "y":71},
+            "size":{
+              "width":133,
+              "height":139},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c03ff86c21f6473493e6319402b8bd85",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "stateStyles":{
+                  "mouseOver":{
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF000000,
+                      "opacity":1},
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0x7F4099FF}}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF4099FF},
+                "location":{
+                  "x":732,
+                  "y":71},
+                "size":{
+                  "width":133,
+                  "height":139},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/lttn_homepage/tweet2bubble_u56.png",
+            "mouseOver~":"images/lttn_homepage/tweet2bubble_u56_mouseOver.png"}},
+{
+          "id":"a65ee9847acf4300acabaaa5a4176a35",
+          "label":"Tweet3Icon",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":782,
+              "y":124},
+            "size":{
+              "width":32,
+              "height":32},
+            "visible":false,
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF000000}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"30bd3e93e5c54badacf2d481c7355228",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":782,
+                  "y":124},
+                "size":{
+                  "width":32,
+                  "height":32},
+                "visible":false,
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF000000}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/lttn_homepage/tweet1icon_u52.png"}},
+{
+          "id":"cecfde3e522a40f78d5cd2f5eb99dd52",
+          "label":"Flickr2Icon",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":199,
+              "y":209},
+            "size":{
+              "width":64,
+              "height":64},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"622f07a014ba4a40935431ea59461044",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":199,
+                  "y":209},
+                "size":{
+                  "width":64,
+                  "height":64},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setImage",
+                      "description":"Set This image to image",
+                      "imagesToSet":[{
+                          "objectPath":["cecfde3e522a40f78d5cd2f5eb99dd52"],
+                          "base":{
+                            "normal":{
+                              "path":"files/lttn_homepage/d2ed5c7c6c5147878e33d6be0558378c.jpg"}},
+                          "adaptive":{
+}}]}]}]},
+            "onDoubleClick":{
+              "description":"OnDoubleClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open https://www.flickr.com/photos/jhoweaa/327651705/in/photolist-uXirk-3L5n1D-5Vn3Ya-cFNTXN-6FV6a2-cjDKSf-jbZug6-cL7S39-9UUkQV-98kiAE-99CCsH-6cTFH4-ashKej-8WSyaE-fjnMzz-9gweHd-e9B5xG-a8LEQu-hrmNPP-9SJsq2-bVTf3D-aSdzvF-9DCUeY-dbjVpp-cUTP5N-cfYBKL-8m7DSb-dw7gqk-cqyzNU-9rVdfU-dunza2-a8LJjQ-gQQnVp-a4UBvm-dTJgpk-8m4vTx-9dpSTR-bw7f54-ayr6R8-e64zzY-9kZh3E-aqmxnu-8jDxRi-khytwr-caCueo-aaToC5-94kAxN-bTNge2-9ziAhr-bAw3jx in New Window/Tab",
+                      "target":{
+                        "targetType":"webUrl",
+                        "urlLiteral":{
+                          "exprType":"stringLiteral",
+                          "value":"https://www.flickr.com/photos/jhoweaa/327651705/in/photolist-uXirk-3L5n1D-5Vn3Ya-cFNTXN-6FV6a2-cjDKSf-jbZug6-cL7S39-9UUkQV-98kiAE-99CCsH-6cTFH4-ashKej-8WSyaE-fjnMzz-9gweHd-e9B5xG-a8LEQu-hrmNPP-9SJsq2-bVTf3D-aSdzvF-9DCUeY-dbjVpp-cUTP5N-cfYBKL-8m7DSb-dw7gqk-cqyzNU-9rVdfU-dunza2-a8LJjQ-gQQnVp-a4UBvm-dTJgpk-8m4vTx-9dpSTR-bw7f54-ayr6R8-e64zzY-9kZh3E-aqmxnu-8jDxRi-khytwr-caCueo-aaToC5-94kAxN-bTNge2-9ziAhr-bAw3jx",
+                          "stos":[]},
+                        "includeVariables":false},
+                      "linkType":"new"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/lttn_homepage/flickr2icon_u64.png"}},
+{
+          "id":"aa967e1fa8834466a5bfc614c858d9e7",
+          "label":"Tweet2Real",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "stateStyles":{
+              "mouseOver":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"linearGradient",
+                  "colors":[{
+                      "color":0x7F4099FF},
+{
+                      "color":0x7F4099FF},
+{
+                      "color":0xFF000000},
+{
+                      "color":0xFF000000}]}}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF4099FF},
+            "location":{
+              "x":458,
+              "y":440},
+            "size":{
+              "width":122,
+              "height":121},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"99dc889659454d0fa69d31fcdaf141a4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "stateStyles":{
+                  "mouseOver":{
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFFFF,
+                      "opacity":1},
+                    "fill":{
+                      "fillType":"linearGradient",
+                      "colors":[{
+                          "color":0x7F4099FF},
+{
+                          "color":0x7F4099FF},
+{
+                          "color":0xFF000000},
+{
+                          "color":0xFF000000}]}}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF4099FF},
+                "location":{
+                  "x":458,
+                  "y":440},
+                "size":{
+                  "width":122,
+                  "height":121},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set text on Tweet2Real equal to &quot;&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["99dc889659454d0fa69d31fcdaf141a4"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"Show Tweet1Icon",
+                      "objectsToFades":[{
+                          "objectPath":["bbb4c6ac2cbf4514bfd26c4f0e5665d5"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"moveWidget",
+                      "description":"Move This by (,-10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["aa967e1fa8834466a5bfc614c858d9e7"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move This by (0,10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["aa967e1fa8834466a5bfc614c858d9e7"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move Tweet2RealIcon by (0,-10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["47a82aadd3d144699616afd2fd547301"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move Tweet2RealIcon by (0,10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["47a82aadd3d144699616afd2fd547301"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/lttn_homepage/tweet1_u5.png",
+            "mouseOver~":"images/lttn_homepage/tweet1_u5_mouseOver.png"}},
+{
+          "id":"47a82aadd3d144699616afd2fd547301",
+          "label":"Tweet2RealIcon",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":503,
+              "y":484},
+            "size":{
+              "width":32,
+              "height":32},
+            "visible":false,
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF000000}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"87442ea5f20a4c6d8617f9bd88ff17a1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":503,
+                  "y":484},
+                "size":{
+                  "width":32,
+                  "height":32},
+                "visible":false,
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF000000}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Hide This",
+                      "objectsToFades":[{
+                          "objectPath":["47a82aadd3d144699616afd2fd547301"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"setFunction",
+                      "description":"Set text on Tweet2Real equal to &quot;Enjoing the sunny weather&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["99dc889659454d0fa69d31fcdaf141a4"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"Enjoing the sunny weather",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}}]}]},
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/lttn_homepage/tweet1icon_u52.png"}},
+{
+          "id":"9bbd71e3738d4a06a36114161b6e86b5",
+          "label":"Craigslist1Icon",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":375,
+              "y":176},
+            "size":{
+              "width":64,
+              "height":64},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"416475ee7ab44a88b047efff8dad134d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":375,
+                  "y":176},
+                "size":{
+                  "width":64,
+                  "height":64},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Hide This",
+                      "objectsToFades":[{
+                          "objectPath":["9bbd71e3738d4a06a36114161b6e86b5"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"setFunction",
+                      "description":"Set text on Craigslist1 equal to &quot;For rent: two bedroom apt.&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["40badeed516e4aa8b92a9b361fca6b0b"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"For rent: two bedroom apt.",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/lttn_homepage/craigslist1icon_u70.png"}},
+{
+          "id":"6c747797f75246bfac816a7c3f0b5cab",
+          "label":"Flickr1Bubble",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "stateStyles":{
+              "mouseOver":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF000000,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"linearGradient",
+                  "colors":[{
+                      "color":0xFFFF0084},
+{
+                      "color":0xFFFF0084},
+{
+                      "color":0xFF000000},
+{
+                      "color":0xFF000000}]}}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFF0084},
+            "location":{
+              "x":428,
+              "y":299},
+            "size":{
+              "width":122,
+              "height":121},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"25097066fd1141fda863397f7b757708",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "stateStyles":{
+                  "mouseOver":{
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF000000,
+                      "opacity":1},
+                    "fill":{
+                      "fillType":"linearGradient",
+                      "colors":[{
+                          "color":0xFFFF0084},
+{
+                          "color":0xFFFF0084},
+{
+                          "color":0xFF000000},
+{
+                          "color":0xFF000000}]}}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0084},
+                "location":{
+                  "x":428,
+                  "y":299},
+                "size":{
+                  "width":122,
+                  "height":121},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"moveWidget",
+                      "description":"Move This by (0,-10) swing 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["6c747797f75246bfac816a7c3f0b5cab"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"swing",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move This by (0,10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["6c747797f75246bfac816a7c3f0b5cab"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move Flickr1Icon by (0,-10) swing 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["c7d91428babb41928f34f005e02f557a"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"swing",
+                              "duration":500}}}]},
+{
+                      "action":"moveWidget",
+                      "description":"Move Flickr1Icon by (0,10) bounce 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["c7d91428babb41928f34f005e02f557a"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"10",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]}]}]}},
+          "images":{
+            "normal~":"images/lttn_homepage/flickr2bubble_u54.png",
+            "mouseOver~":"images/lttn_homepage/flickr2bubble_u54_mouseOver.png"}},
+{
+          "id":"c7d91428babb41928f34f005e02f557a",
+          "label":"Flickr1Icon",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":457,
+              "y":328},
+            "size":{
+              "width":64,
+              "height":64},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b8de585549e04d43a1037054b1b7c5ee",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":457,
+                  "y":328},
+                "size":{
+                  "width":64,
+                  "height":64},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setImage",
+                      "description":"Set Flickr1Icon image to image",
+                      "imagesToSet":[{
+                          "objectPath":["c7d91428babb41928f34f005e02f557a"],
+                          "base":{
+                            "normal":{
+                              "path":"files/lttn_homepage/b0165ca9ad9042999a0bcab4dcda869f.jpg"}},
+                          "adaptive":{
+}}]}]}]},
+            "onDoubleClick":{
+              "description":"OnDoubleClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open https://www.flickr.com/photos/cseeman/5849524513 in New Window/Tab",
+                      "target":{
+                        "targetType":"webUrl",
+                        "urlLiteral":{
+                          "exprType":"stringLiteral",
+                          "value":"https://www.flickr.com/photos/cseeman/5849524513",
+                          "stos":[]},
+                        "includeVariables":false},
+                      "linkType":"new"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/lttn_homepage/flickr2icon_u64.png"}},
+{
+          "id":"abe869f1da204c43b79e4f5763c0ef28",
+          "label":"box",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "location":{
+              "x":20,
+              "y":572},
+            "size":{
+              "width":284,
+              "height":68}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5e5ce602f008410c949088accffeefe5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "location":{
+                  "x":20,
+                  "y":572},
+                "size":{
+                  "width":284,
+                  "height":68}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open LTTN Startpage in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"lttn_startpage.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/lttn_startpage/box_u5.png"}},
+{
+          "id":"aa74d76db63b48f5aac871efa125ebee",
+          "label":"text",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'AmericanTypewriter', 'American Typewriter'",
+            "fontSize":"18px",
+            "horizontalAlignment":"left",
+            "verticalAlignment":"top",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF424242,
+              "opacity":1},
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":92,
+              "y":593},
+            "size":{
+              "width":140,
+              "height":27},
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "cornerRadiusTopLeft":"1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"067e5a67bdae41d1bfea4be1717ef9a1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                "fontSize":"18px",
+                "horizontalAlignment":"left",
+                "verticalAlignment":"top",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF424242,
+                  "opacity":1},
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":92,
+                  "y":593},
+                "size":{
+                  "width":140,
+                  "height":27},
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "cornerRadiusTopLeft":"1"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open LTTN Startpage in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"lttn_startpage.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"ba3e18f3f2774c9f80be108d9eedb33e",
+          "label":"NewZipCodeTextField",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fontName":"'AmericanTypewriter', 'American Typewriter'",
+            "horizontalAlignment":"center",
+            "location":{
+              "x":810,
+              "y":605},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "submitButton":{
+            "path":[],
+            "id":"4bb3795132d54490819fbdbbfb01cd80"},
+          "interactionMap":{
+            "onTextChange":{
+              "description":"OnTextChange",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set value of NewZipCode equal to text on This",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"NewZipCode"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetWidgetText",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":true,
+                                    "isFocused":false,
+                                    "isTarget":false}]}]}]}}]}]}},
+          "placeholderText":"Enter zip code"},
+{
+          "id":"32baece8b1e748c3a51b92fb9a5f2b74",
+          "label":"button",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "stateStyles":{
+              "mouseOver":{
+},
+              "mouseDown":{
+},
+              "selected":{
+},
+              "disabled":{
+}},
+            "location":{
+              "x":920,
+              "y":604},
+            "size":{
+              "width":40,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"24fef0007b45406a9da8fe43c55302ec",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "mouseDown":{
+},
+                  "selected":{
+},
+                  "disabled":{
+}},
+                "location":{
+                  "x":920,
+                  "y":604},
+                "size":{
+                  "width":40,
+                  "height":25}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/lttn_homepage/button_u81.png",
+            "selected~":"images/lttn_homepage/button_u81_selected.png",
+            "mouseOver~":"images/lttn_homepage/button_u81_selected.png",
+            "mouseDown~":"images/lttn_homepage/button_u81_mouseDown.png",
+            "disabled~":"images/lttn_homepage/button_u81_disabled.png"}},
+{
+          "id":"4bb3795132d54490819fbdbbfb01cd80",
+          "label":"Go button label",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'AmericanTypewriter', 'American Typewriter'",
+            "fontSize":"16px",
+            "horizontalAlignment":"center",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF000000,
+              "opacity":1},
+            "location":{
+              "x":920,
+              "y":608},
+            "size":{
+              "width":40,
+              "height":18},
+            "rotation":"0",
+            "textRotation":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"67e359d51b7941c0aa2a7e4e641ea3ba",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                "fontSize":"16px",
+                "horizontalAlignment":"center",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF000000,
+                  "opacity":1},
+                "location":{
+                  "x":920,
+                  "y":608},
+                "size":{
+                  "width":40,
+                  "height":18},
+                "rotation":"0",
+                "textRotation":"0"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open LTTN Homepage in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"lttn_homepage.html",
+                        "includeVariables":true},
+                      "linkType":"current"},
+{
+                      "action":"setFunction",
+                      "description":"Set text on NewZipCodeTextField equal to value of NewZipCode",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetFormText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["ba3e18f3f2774c9f80be108d9eedb33e"]},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"NewZipCode"}]}]}]}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"18475713853b464fa93b44803065ce9e",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":980,
+              "y":604},
+            "size":{
+              "width":27,
+              "height":27}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"abecb022f18d4e7398f50d9f0d356a1e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":980,
+                  "y":604},
+                "size":{
+                  "width":27,
+                  "height":27}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open LTTN Settings in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"lttn_settings.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/lttn_homepage/u85.png"}},
+{
+          "id":"04bc43304f7a423c88c9ef1cd35968e9",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":512,
+              "y":598},
+            "size":{
+              "width":98,
+              "height":37}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"042d5d01ad11416f965ad9babd7bcb65",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":512,
+                  "y":598},
+                "size":{
+                  "width":98,
+                  "height":37}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/lttn_homepage/u87.png"}},
+{
+          "id":"fd58d7b7cf9e432c895dc6036c5429d2",
+          "label":"",
+          "type":"horizontalLine",
+          "styleType":"horizontalLine",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":810,
+              "y":551},
+            "size":{
+              "width":200,
+              "height":10},
+            "borderWidth":"5",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"images/lttn_homepage/u89_start.png",
+            "end~":"images/lttn_homepage/u89_end.png",
+            "line~":"images/lttn_homepage/u89_line.png"}},
+{
+          "id":"b4230f1bbe4e4a3cbb41fad559da489e",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'AmericanTypewriter', 'American Typewriter'",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "location":{
+              "x":800,
+              "y":526},
+            "size":{
+              "width":54,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"96d8ce9b43944d4c900b9c087c1590ee",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "location":{
+                  "x":800,
+                  "y":526},
+                "size":{
+                  "width":54,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"664137f5040a4282a028caf8afd764f5",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'AmericanTypewriter', 'American Typewriter'",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "location":{
+              "x":987,
+              "y":526},
+            "size":{
+              "width":33,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0a88ab6ca3464eb0ae26c8bfaf68247c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "location":{
+                  "x":987,
+                  "y":526},
+                "size":{
+                  "width":33,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"10d7719974964e96a55e2cc22b2de904",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'AmericanTypewriter', 'American Typewriter'",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "location":{
+              "x":897,
+              "y":526},
+            "size":{
+              "width":26,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"be986531bda24199b30d8504c6832adc",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "location":{
+                  "x":897,
+                  "y":526},
+                "size":{
+                  "width":26,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "6083687cc2fc4a708a3fcc5b3f8a9591":{
+      "scriptId":"u0"},
+    "40badeed516e4aa8b92a9b361fca6b0b":{
+      "scriptId":"u1"},
+    "8a4d6ebf60ae424cb7ea60f62a7a64cd":{
+      "scriptId":"u2"},
+    "0b843d7219be440bbee65eff8bbf2622":{
+      "scriptId":"u3"},
+    "016fad29c07944c481aa725150e96ff1":{
+      "scriptId":"u4"},
+    "1e05a89e46de4a569104295263705050":{
+      "scriptId":"u5"},
+    "5a6dd1bc27944b7eb5bb49323f025665":{
+      "scriptId":"u6"},
+    "9c61218609734e3bb17005400b7e27fd":{
+      "scriptId":"u7"},
+    "96ba8a8c27bd4ad48e75779bd943f2b5":{
+      "scriptId":"u8"},
+    "10f1bebd1a294ab7a41711917d885e00":{
+      "scriptId":"u9"},
+    "501c778ac8da41c4888a3ee515f0e822":{
+      "scriptId":"u10"},
+    "502d5dbf00c74745a42eb6a9f5bff87b":{
+      "scriptId":"u11"},
+    "72336619c02b46c0b45908fb2def6325":{
+      "scriptId":"u12"},
+    "3e5cdf289f714df0a50c81e41bfd1cac":{
+      "scriptId":"u13"},
+    "6c140e938c99499dab3d3af6b27366f1":{
+      "scriptId":"u14"},
+    "91d4614139054dcd84d89ea09fe962f6":{
+      "scriptId":"u15"},
+    "9e18a68064d94913a32f108c41a1ec0b":{
+      "scriptId":"u16"},
+    "25dc634bce4f441eae0cecb51f8b1e3d":{
+      "scriptId":"u17"},
+    "1c50649a8f7f46c780f83e1dfa495939":{
+      "scriptId":"u18"},
+    "654c7095c3624b81afda20e78068b039":{
+      "scriptId":"u19"},
+    "b60d8e360d3543d1872231cdc12b7ded":{
+      "scriptId":"u20"},
+    "27f000fde55b42268c7717f04c6a607c":{
+      "scriptId":"u21"},
+    "5a063af889444442aff4f8cf2c96ebb8":{
+      "scriptId":"u22"},
+    "96fb49d7992f4bc4bb8f7ccf73976004":{
+      "scriptId":"u23"},
+    "e2e563ae3d1b4c6495cfc0e20dced7f3":{
+      "scriptId":"u24"},
+    "0689ebc5ac684a399d756550c4bd1dbe":{
+      "scriptId":"u25"},
+    "44f6bcfe71244e41a7dc3908f2874691":{
+      "scriptId":"u26"},
+    "28a1b00f00e0438d9ab2d58e85b01bd7":{
+      "scriptId":"u27"},
+    "4c26a1738aba416ca504268214683d12":{
+      "scriptId":"u28"},
+    "50393b1206e746b9901ae1e0729ea4a4":{
+      "scriptId":"u29"},
+    "72503b773521438eb4a6c32055e7ddcf":{
+      "scriptId":"u30"},
+    "e4f541077ea149a98514189f2988483e":{
+      "scriptId":"u31"},
+    "4ae4763a5c594e31841215c4b89f8db2":{
+      "scriptId":"u32"},
+    "747052abc3724e419070c3a0619be996":{
+      "scriptId":"u33"},
+    "69c2e2a3925c4386a513bbac83b1332a":{
+      "scriptId":"u34"},
+    "fee0f7f8e6084148bdcc3352961cdf4c":{
+      "scriptId":"u35"},
+    "4491b8791533498d8f25fc9554b982ca":{
+      "scriptId":"u36"},
+    "f26d5dfd4f51432d8c218e5b3c335ac2":{
+      "scriptId":"u37"},
+    "74cd873f03dc4514a01e21bc61f0a152":{
+      "scriptId":"u38"},
+    "33bb8ad61a064b6ba8bd12c84b67e3b3":{
+      "scriptId":"u39"},
+    "34ca1819a15d423db8d5563c42d4fb63":{
+      "scriptId":"u40"},
+    "ba1fbf4dc4264c7c86a39244e9afa470":{
+      "scriptId":"u41"},
+    "ed702f64b80a435e86f69c1a6d4dcef2":{
+      "scriptId":"u42"},
+    "d24063f69ce64ed9afeea80f9cc01296":{
+      "scriptId":"u43"},
+    "5b50086f16b4401d86fd7a44c00b7b38":{
+      "scriptId":"u44"},
+    "01010d22298a400a94332017bd8b0af9":{
+      "scriptId":"u45"},
+    "01ba0ee77ce844b38254109c27ea3a9a":{
+      "scriptId":"u46"},
+    "784e53f795b2401eb2bcba959ae5d5fb":{
+      "scriptId":"u47"},
+    "5a5d3c30ce0849e3b8ef553a9a81570d":{
+      "scriptId":"u48"},
+    "21525fc549e04e748c97b3ad6c407757":{
+      "scriptId":"u49"},
+    "22f2103d7f1e4230bcc3f55f42f0ff81":{
+      "scriptId":"u50"},
+    "386e844ee55e4782ab973cd9ca052692":{
+      "scriptId":"u51"},
+    "bbb4c6ac2cbf4514bfd26c4f0e5665d5":{
+      "scriptId":"u52"},
+    "58be50f69bb543d5af6755232e4a18c2":{
+      "scriptId":"u53"},
+    "c84ef41ed4d94927ac0cf74ace5ff25b":{
+      "scriptId":"u54"},
+    "410d127555c04cfcb571a811a8fae0f6":{
+      "scriptId":"u55"},
+    "041c509f30914672bd110efc816bd865":{
+      "scriptId":"u56"},
+    "3aaca30f3daa413f8f397a17f2280a63":{
+      "scriptId":"u57"},
+    "133ecc48fc0144479ce6237170357350":{
+      "scriptId":"u58"},
+    "52ee0d18eadc4c96b3916ba9b12bf965":{
+      "scriptId":"u59"},
+    "ffed8c578ed64d32ad63f81ee6ec2f33":{
+      "scriptId":"u60"},
+    "c03ff86c21f6473493e6319402b8bd85":{
+      "scriptId":"u61"},
+    "a65ee9847acf4300acabaaa5a4176a35":{
+      "scriptId":"u62"},
+    "30bd3e93e5c54badacf2d481c7355228":{
+      "scriptId":"u63"},
+    "cecfde3e522a40f78d5cd2f5eb99dd52":{
+      "scriptId":"u64"},
+    "622f07a014ba4a40935431ea59461044":{
+      "scriptId":"u65"},
+    "aa967e1fa8834466a5bfc614c858d9e7":{
+      "scriptId":"u66"},
+    "99dc889659454d0fa69d31fcdaf141a4":{
+      "scriptId":"u67"},
+    "47a82aadd3d144699616afd2fd547301":{
+      "scriptId":"u68"},
+    "87442ea5f20a4c6d8617f9bd88ff17a1":{
+      "scriptId":"u69"},
+    "9bbd71e3738d4a06a36114161b6e86b5":{
+      "scriptId":"u70"},
+    "416475ee7ab44a88b047efff8dad134d":{
+      "scriptId":"u71"},
+    "6c747797f75246bfac816a7c3f0b5cab":{
+      "scriptId":"u72"},
+    "25097066fd1141fda863397f7b757708":{
+      "scriptId":"u73"},
+    "c7d91428babb41928f34f005e02f557a":{
+      "scriptId":"u74"},
+    "b8de585549e04d43a1037054b1b7c5ee":{
+      "scriptId":"u75"},
+    "abe869f1da204c43b79e4f5763c0ef28":{
+      "scriptId":"u76"},
+    "5e5ce602f008410c949088accffeefe5":{
+      "scriptId":"u77"},
+    "aa74d76db63b48f5aac871efa125ebee":{
+      "scriptId":"u78"},
+    "067e5a67bdae41d1bfea4be1717ef9a1":{
+      "scriptId":"u79"},
+    "ba3e18f3f2774c9f80be108d9eedb33e":{
+      "scriptId":"u80"},
+    "32baece8b1e748c3a51b92fb9a5f2b74":{
+      "scriptId":"u81"},
+    "24fef0007b45406a9da8fe43c55302ec":{
+      "scriptId":"u82"},
+    "4bb3795132d54490819fbdbbfb01cd80":{
+      "scriptId":"u83"},
+    "67e359d51b7941c0aa2a7e4e641ea3ba":{
+      "scriptId":"u84"},
+    "18475713853b464fa93b44803065ce9e":{
+      "scriptId":"u85"},
+    "abecb022f18d4e7398f50d9f0d356a1e":{
+      "scriptId":"u86"},
+    "04bc43304f7a423c88c9ef1cd35968e9":{
+      "scriptId":"u87"},
+    "042d5d01ad11416f965ad9babd7bcb65":{
+      "scriptId":"u88"},
+    "fd58d7b7cf9e432c895dc6036c5429d2":{
+      "scriptId":"u89"},
+    "b4230f1bbe4e4a3cbb41fad559da489e":{
+      "scriptId":"u90"},
+    "96d8ce9b43944d4c900b9c087c1590ee":{
+      "scriptId":"u91"},
+    "664137f5040a4282a028caf8afd764f5":{
+      "scriptId":"u92"},
+    "0a88ab6ca3464eb0ae26c8bfaf68247c":{
+      "scriptId":"u93"},
+    "10d7719974964e96a55e2cc22b2de904":{
+      "scriptId":"u94"},
+    "be986531bda24199b30d8504c6832adc":{
+      "scriptId":"u95"}}});

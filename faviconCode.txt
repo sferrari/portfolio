@@ -1,0 +1,8 @@
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://sferrari.net/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://sferrari.net/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://sferrari.net/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://sferrari.net/favicon-16x16.png" sizes="16x16" />
+<meta name="application-name" content="Sebastian Ferrari"/>
+<meta name="msapplication-TileColor" content="#000000" />
+<meta name="msapplication-TileImage" content="https://sferrari.net/mstile-144x144.png" />
+<meta name="msapplication-notification" content="frequency=30;polling-uri=https://notifications.buildmypinnedsite.com/?feed=https://sferrari.net/blog/&amp;id=1;polling-uri2=https://notifications.buildmypinnedsite.com/?feed=https://sferrari.net/blog/&amp;id=2;polling-uri3=https://notifications.buildmypinnedsite.com/?feed=https://sferrari.net/blog/&amp;id=3;polling-uri4=https://notifications.buildmypinnedsite.com/?feed=https://sferrari.net/blog/&amp;id=4;polling-uri5=https://notifications.buildmypinnedsite.com/?feed=https://sferrari.net/blog/&amp;id=5;cycle=1" />
