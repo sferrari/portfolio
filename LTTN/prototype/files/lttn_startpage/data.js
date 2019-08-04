@@ -1,0 +1,424 @@
+﻿$axure.loadCurrentPage({
+  "url":"lttn_startpage.html",
+  "generationDate":new Date(1398052251589.26),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"DroplistOption",
+"ZipCode",
+"NewZipCode"],
+  "page":{
+    "packageId":"3a383a737d4b4c8d9da7a5b9e4edadad",
+    "type":"Axure:Page",
+    "name":"LTTN Startpage",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"center",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFF000000},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"b37b884a454f45a287c9961227478b54",
+          "label":"Zip code",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fontName":"'AmericanTypewriter', 'American Typewriter'",
+            "horizontalAlignment":"center",
+            "stateStyles":{
+              "hint":{
+                "horizontalAlignment":"center",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC,
+                  "opacity":1}}},
+            "location":{
+              "x":533,
+              "y":270},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "submitButton":{
+            "path":[],
+            "id":"9b80cfb2e3284cbc8a55dbfb42a924d7"},
+          "interactionMap":{
+            "onTextChange":{
+              "description":"OnTextChange",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set value of ZipCode equal to text on This",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"ZipCode"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetWidgetText",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":true,
+                                    "isFocused":false,
+                                    "isTarget":false}]}]}]}}]}]}},
+          "placeholderText":"Enter zip code"},
+{
+          "id":"cd5627cf8f4244f4a4d6f4f102909f77",
+          "label":"button",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "stateStyles":{
+              "mouseOver":{
+},
+              "mouseDown":{
+},
+              "selected":{
+},
+              "disabled":{
+}},
+            "location":{
+              "x":581,
+              "y":326.5},
+            "size":{
+              "width":104,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d1cf6167527447a79e96a158d3e4db81",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "mouseDown":{
+},
+                  "selected":{
+},
+                  "disabled":{
+}},
+                "location":{
+                  "x":581,
+                  "y":326.5},
+                "size":{
+                  "width":104,
+                  "height":25}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set is selected of button equal to &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["cd5627cf8f4244f4a4d6f4f102909f77"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}}]}]},
+            "onMouseOut":{
+              "description":"OnMouseOut",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set is selected of button equal to &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["cd5627cf8f4244f4a4d6f4f102909f77"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]}]}}]}]}},
+          "images":{
+            "normal~":"images/lttn_startpage/button_u1.png",
+            "selected~":"images/lttn_startpage/button_u1_selected.png",
+            "mouseOver~":"images/lttn_startpage/button_u1_selected.png",
+            "mouseDown~":"images/lttn_startpage/button_u1_mouseDown.png",
+            "disabled~":"images/lttn_startpage/button_u1_disabled.png"}},
+{
+          "id":"9b80cfb2e3284cbc8a55dbfb42a924d7",
+          "label":"GoButtonLabel",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'AmericanTypewriter', 'American Typewriter'",
+            "fontSize":"16px",
+            "horizontalAlignment":"center",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF424242,
+              "opacity":1},
+            "location":{
+              "x":583,
+              "y":330},
+            "size":{
+              "width":100,
+              "height":18},
+            "rotation":"0",
+            "textRotation":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"093495bf42a645adacc2658e2330e48a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                "fontSize":"16px",
+                "horizontalAlignment":"center",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF424242,
+                  "opacity":1},
+                "location":{
+                  "x":583,
+                  "y":330},
+                "size":{
+                  "width":100,
+                  "height":18},
+                "rotation":"0",
+                "textRotation":"0"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open LTTN Homepage in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"lttn_homepage.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]},
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set is selected of button equal to &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["cd5627cf8f4244f4a4d6f4f102909f77"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}}]}]},
+            "onMouseOut":{
+              "description":"OnMouseOut",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set is selected of button equal to &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["cd5627cf8f4244f4a4d6f4f102909f77"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]}]}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"b69c89b5e46e4435a9f2f4d4b4e2d2b6",
+          "label":"box",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "location":{
+              "x":491,
+              "y":182.5},
+            "size":{
+              "width":284,
+              "height":68}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f72fa73ba7804189b69aecfb91116c6d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "location":{
+                  "x":491,
+                  "y":182.5},
+                "size":{
+                  "width":284,
+                  "height":68}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/lttn_startpage/box_u5.png"}},
+{
+          "id":"1dae6d4859e8421aaa291c9c5987961e",
+          "label":"text",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'AmericanTypewriter', 'American Typewriter'",
+            "fontSize":"18px",
+            "verticalAlignment":"top",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF424242,
+              "opacity":1},
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":563,
+              "y":203},
+            "size":{
+              "width":140,
+              "height":27},
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "cornerRadiusTopLeft":"1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a57465c5d25d4267861911e095e7ba4d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                "fontSize":"18px",
+                "verticalAlignment":"top",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF424242,
+                  "opacity":1},
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":563,
+                  "y":203},
+                "size":{
+                  "width":140,
+                  "height":27},
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "cornerRadiusTopLeft":"1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "b37b884a454f45a287c9961227478b54":{
+      "scriptId":"u0"},
+    "cd5627cf8f4244f4a4d6f4f102909f77":{
+      "scriptId":"u1"},
+    "d1cf6167527447a79e96a158d3e4db81":{
+      "scriptId":"u2"},
+    "9b80cfb2e3284cbc8a55dbfb42a924d7":{
+      "scriptId":"u3"},
+    "093495bf42a645adacc2658e2330e48a":{
+      "scriptId":"u4"},
+    "b69c89b5e46e4435a9f2f4d4b4e2d2b6":{
+      "scriptId":"u5"},
+    "f72fa73ba7804189b69aecfb91116c6d":{
+      "scriptId":"u6"},
+    "1dae6d4859e8421aaa291c9c5987961e":{
+      "scriptId":"u7"},
+    "a57465c5d25d4267861911e095e7ba4d":{
+      "scriptId":"u8"}}});
