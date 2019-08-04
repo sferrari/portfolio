@@ -316,7 +316,7 @@
 		}
 
 		.paginate a {
-			color: #1a1a1a;
+			color: var(--color-btn-link);
 			text-decoration: none;
 
 		}
@@ -602,7 +602,7 @@
 		}
 
 		.btn-link:hover {
-		  color: black;
+		  color: var(--color-btn-link);
 		  text-decoration: underline;
 		  background-color: transparent;
 		  border-color: transparent;
