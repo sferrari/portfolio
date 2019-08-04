@@ -1,2 +1,2 @@
 # portfolio
-Code for my portfolio, which uses Bootstrap and a modified theme from Bootswatch, plus a few other hacks.
+Code for my portfolio, originally used a theme from Bootwatch and have made many modifications over the years.
