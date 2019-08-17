@@ -18,7 +18,8 @@
 	      --color-btn-outline-background: #1a1a1a;
 	      --color-jumbotron: #f7f7f9;
 	      --color-nav: #1a1a1a;
-	      --color-card-background: #1a1a1a;
+	      --color-card-background: #ffffff;
+	      --color-card-background-dark: #1a1a1a;
 	      
 
 		}
@@ -32,6 +33,7 @@
         	--color-jumbotron: #121212;
         	--color-nav: #000000;
         	--color-card-background: #000000;
+        	--color-card-background-dark: #000000;
     			  }
 		}
 
@@ -688,7 +690,7 @@
 		}
 
 		.bg-primary {
-    		background-color: var(--color-card-background) !important
+    		background-color: var(--color-card-background-dark) !important
 		}
 
 		.text-white {
