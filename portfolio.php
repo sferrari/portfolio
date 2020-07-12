@@ -17,25 +17,25 @@ include 'header.html';
 
         <div class="card">
           <h3 class="card-header">Target</h3>
-          <a href="target.php"><img class="card-img img-light" src="static/target@2x.png" alt="Target logo"><img class="card-img img-dark" src="static/target_dark@2x.png" alt="Target logo"></a>
+          <a href="target.php"><img class="card-img img-light" src="static/target@2x.png" alt="Target logo"><img style="display:none;" class="card-img img-dark" src="static/target_dark@2x.png" alt="Target logo"></a>
           <div class="card-body">
-            <p class="card-text">I currently work on the Target mobile app and website.</p>
+            <p class="card-text">I currently work on the Target app and website.</p>
           <a class="btn-link btn-link-sm" href="target.php">View details</a>
           </div>
         </div>
 
         <div class="card">
           <h3 class="card-header">The Nerdery</h3>
-          <a href="nerdery.php"><img class="card-img img-light" src="static/nerdery@2x.png" alt="Nerdery logo"><img class="card-img img-dark" src="static/nerdery_dark@2x.png" alt="Nerdery logo"></a>
+          <a href="nerdery.php"><img class="card-img img-light" src="static/nerdery@2x.png" alt="Nerdery logo"><img style="display:none;" class="card-img img-dark" src="static/nerdery_dark@2x.png" alt="Nerdery logo"></a>
           <div class="card-body">
-            <p class="card-text">I worked at The Nerdery, a custom software development company, from June 2015 to May 2018.</p>
+            <p class="card-text">I worked at The Nerdery from June 2015 to May 2018.</p>
           <a class="btn-link btn-link-sm" href="nerdery.php">View details</a>
           </div>
         </div>
 
         <div class="card">
           <h3 class="card-header">Enlighten</h3>
-          <a href="enlighten.php"><img class="card-img img-light" src="static/enlighten@2x.png" alt="Enlighten logo"><img class="card-img img-dark" src="static/enlighten_dark@2x.png" alt="Enlighten logo"></a>
+          <a href="enlighten.php"><img class="card-img img-light" src="static/enlighten@2x.png" alt="Enlighten logo"><img style="display:none;" class="card-img img-dark" src="static/enlighten_dark@2x.png" alt="Enlighten logo"></a>
           <div class="card-body">
             <p class="card-text">I worked part-time at Enlighten, a digital agency, while studying HCI.</p>
           <a class="btn-link btn-link-sm" href="enlighten.php">View details</a>
@@ -44,9 +44,9 @@ include 'header.html';
 
         <div class="card">
           <h3 class="card-header">UMSI</h3>
-          <a href="umsi.php"><img class="card-img img-light" src="static/umlogo@2x.png" alt="Logo of University of Michigan"><img class="card-img img-dark" src="static/umlogo_dark@2x.png" alt="Logo of University of Michigan"></a>
+          <a href="umsi.php"><img class="card-img img-light" src="static/umlogo@2x.png" alt="Logo of University of Michigan"><img style="display:none;" class="card-img img-dark" src="static/umlogo_dark@2x.png" alt="Logo of University of Michigan"></a>
           <div class="card-body">
-            <p class="card-text">I finished my Master's degree focusing on Human-Computer Interaction in 2015.</p>
+            <p class="card-text">I earned a Master's degree in HCI in 2015.</p>
           <a class="btn-link btn-link-sm" href="umsi.php">View details</a>
           </div>
         </div>

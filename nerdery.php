@@ -17,7 +17,7 @@ include 'header.html';
         
       <hr>
 
-    <h2>Market Grille App <small>Lead UX designer and researcher</small></h2>
+    <h2>Market Grille App <small class="text-muted">Lead UX designer and researcher</small></h2>
 
       <div class="gridwrapper4">
         <div class="card card4 text-white bg-primary">
@@ -82,7 +82,7 @@ include 'header.html';
 
 <hr>
 
-<h2>Hy-Vee Flagship App <small>Lead UX designer and researcher</small></h2>
+<h2>Hy-Vee Flagship App <small class="text-muted">Lead UX designer and researcher</small></h2>
       
       <div class="gridwrapper4">
         <div class="card card4 text-white bg-primary">
@@ -132,7 +132,7 @@ include 'header.html';
               <li>implemented <b>In-Store Notifications</b>, a new feature triggered by Bluetooth beacons placed in the stores</li>
               <li><b>redesigned onboarding</b> for new users of the app</li>
               <li>added a Product Locator</b> feature with the ability to search by voice</li>
-              <li><b>In-store research</b> visits to conduct usability</li>
+              <li><b>In-store research</b> visits to conduct usability tests</li>
               <li>added <b>Siri integration</b> to manage lists and view Fuel Saver balance and QR code (new domains for Siri as of iOS 11)</li>
               <li>added new, personalized type of deals to the app</li>
             </ul>
@@ -151,7 +151,7 @@ include 'header.html';
           </ul>
         </div>
 <hr>
-      <h2>Enterprise Resource Planning system <small>Lead and supporting UX roles</small></h2>
+      <h2>Enterprise Resource Planning system <small class="text-muted">Lead and supporting UX roles</small></h2>
       <div class="gridwrapper4">
         <div class="card card4 text-white bg-primary">
           <div class="card-body">
@@ -213,7 +213,7 @@ include 'header.html';
             
 <hr>
 
-      <h2>Kalahari Resorts <small>Lead UX designer and researcher</small></h2>
+      <h2>Kalahari Resorts <small class="text-muted">Lead UX designer and researcher</small></h2>
 
       <div class="gridwrapper4">
         <div class="card card4 text-white bg-primary">
@@ -276,7 +276,7 @@ include 'header.html';
       
 <hr>
 
-      <h2>Anoka-Ramsey Community College <small>Lead UX designer and researcher</small></h2>
+      <h2>Anoka-Ramsey Community College <small class="text-muted">Lead UX designer and researcher</small></h2>
 
       <div class="gridwrapper4">
         <div class="card card4 text-white bg-primary">

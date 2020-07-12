@@ -12,12 +12,13 @@
 		  --sansfont: "Verdana", sans-serif;;
 		  --navfont: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Verdana", sans-serif;
 		  --systemfont: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	      --color-background: #ffffff;
+	      --color-background: #f9f9f9;
 	      --color-text-default: #393D44;
 	      --color-btn-link: #1a1a1a;
 	      --color-btn-outline-background: #1a1a1a;
-	      --color-jumbotron: #f7f7f9;
-	      --color-nav: #1a1a1a;
+	      --color-jumbotron: #ffffff;
+	      --color-nav: #ffffff;
+	      --color-nav-link: #1a1a1a;
 	      --color-card-background: #ffffff;
 	      --color-card-background-dark: #1a1a1a;
 	      --color-card-header: rgba(0, 0, 0, 0.03);
@@ -33,6 +34,7 @@
         	--color-btn-outline-background: #f0f2f3;
         	--color-jumbotron: #121212;
         	--color-nav: #000000;
+        	--color-nav-link: #ffffff;
         	--color-card-background: #000000;
         	--color-card-background-dark: #000000;
         	--color-card-header: rgba(255, 255, 255, 0.2);
@@ -43,7 +45,7 @@
 	      background-color: var(--color-background);
 	      color: var(--color-text-default);
 	      font-size: 100%;
-	      font-family: var(--seriffont);
+	      font-family: var(--systemfont);
 	      margin:0;
 	      line-height: 1.7rem;
 	    }
@@ -65,19 +67,19 @@
 
 		@media (min-width: 768px) {
 		  .container {
-		    max-width: 720px;
+		    max-width: 700px;
 		  }
 		}
 
 		@media (min-width: 992px) {
 		  .container {
-		    max-width: 900px;
+		    max-width: 700px;
 		  }
 		}
 
 		@media (min-width: 1200px) {
 		  .container {
-		    max-width: 900px;
+		    max-width: 700px;
 		  }
 		}
 
@@ -92,7 +94,7 @@
 		li {
 		  line-height: 1.7rem;
 	      font-size: 1.125rem;
-	      font-family: var(--seriffont);
+	      font-family: var(--systemfont);
 	      margin-bottom: .5rem;
 		}
 
@@ -138,23 +140,58 @@
 		*/
 
 
-	    h1 {
+	    /*h1 {
 	      margin-bottom: 1rem;
 	      margin-top: 1rem;
-	    }
+	    }*/
 
-	    h1, h2, h3, h4, h5 {
+	    /*h1, h2, h3, h4, h5 {
 	    	font-family: var(--headerfont);
-	    	/*letter-spacing:1px;*/
+	    	/*letter-spacing:1px;
 	    	line-height: 1.1;
-	    }
+	    } */
 
+	    h2, h3, h4, h5, h6,
+		.h2, .h3, .h4, .h5, .h6 {
+		  font-family: var(--headerfont);
+		  margin-bottom: 1rem;
+		  font-weight: 500;
+		  line-height: 1.2;
+		}
+
+		h1, .h1 {
+		  font-size: 2.03125rem;
+		  font-family: var(--headerfont);
+		  line-height: 1.2;
+		  margin-bottom: 1rem;
+	      margin-top: 1rem;
+		}
+
+		h2, .h2 {
+		  font-size: 1.625rem;
+		}
+
+		h3, .h3 {
+		  font-size: 1.421875rem;
+		}
+
+		h4, .h4 {
+		  font-size: 1.21875rem;
+		}
+
+		h5, .h5 {
+		  font-size: 1.015625rem;
+		}
+
+		h6, .h6 {
+		  font-size: 0.8125rem;
+		}
 
 
 	    p {
-	      line-height: 1.7rem;
-	      font-size: 1.125rem;
-	      font-family: var(--seriffont);
+	      line-height: 1.7em;
+	      font-size: 1.2em;
+	      font-family: var(--systemfont);
 	      /*margin-bottom: 1rem;*/
 	    }
 
@@ -214,6 +251,16 @@
 		 }
 		  }
 
+		@media (prefers-color-scheme: no-preference) {
+			.img-light {
+				display: block;
+			}
+			.img-dark {
+				display: none;
+			}
+
+		}
+
 		@media (prefers-color-scheme: light) {
 			.img-light {
 				display: block;
@@ -226,10 +273,10 @@
 
 		@media (prefers-color-scheme: dark) {
 			.img-light {
-				display: none;
+				display: none !important;
 			}
 			.img-dark {
-				display: block;
+				display: block !important;
 			}
 		}
 
@@ -385,17 +432,17 @@
 	    	font-family: var(--navfont);
 	    	letter-spacing: 1px;
 	    	text-transform: uppercase;
-	    	color: #FFF;
+	    	color: var(--color-nav-link);
 	    }
 
 	    a.nav:visited {
 	    	text-decoration: none;
-	    	color: #FFF;
+	    	color: var(--color-nav-link);
 	    }
 
 	    a.nav:hover {
 	    	text-decoration: underline;
-	    	color: #FFF;
+	    	color: var(--color-nav-link);
 	    }
 
 
@@ -493,7 +540,7 @@
 	    }
 
 		p.box, h2.box {
-			margin: 0rem 1rem 1rem 0rem ;
+			margin: 0rem 1.5rem 1rem 0rem ;
 			font-family: var(--headerfont);
 		}
 
@@ -692,7 +739,11 @@
 		    text-transform: uppercase;
 			letter-spacing: 3px;
 			font-family: var(--sansfont); 
+			font-weight: bold;
+			font-size: 1rem;
 			margin-top: 0;
+			line-height: 1.1;
+
 
 		}
 
@@ -727,6 +778,9 @@
 		  text-transform: uppercase;
   		  letter-spacing: 3px;
   		  font-family: var(--sansfont);
+  		  font-size: 1.17em;
+  		  font-weight: bold;
+  		  line-height: 1.1;
 		}
 
 		.card-header:first-child {
