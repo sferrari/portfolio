@@ -8,7 +8,7 @@ include 'header.html';
     <div class="jumbotron">
       <div class="container">
         <h1>Portfolio</h1>
-        <p>I am a Senior Product Designer working on the Target mobile app and website. I previously worked at <a href="https://www.nerdery.com/">The Nerdery</a> and Enlighten (since acquired by <a href="https://www.perficientdigital.com/">Perficient Digital</a>). I have a Master of Science in Information from the <a href="http://si.umich.edu">University of Michigan School of Information</a>.</p>
+        <p>I currently work as a Senior Product Designer on the Target mobile app and website. I previously worked at <a href="https://www.nerdery.com/">The Nerdery</a> and Enlighten (since acquired by <a href="https://www.perficientdigital.com/">Perficient Digital</a>). I have a Master of Science in Information from the <a href="http://si.umich.edu">University of Michigan School of Information</a>.</p>
       </div>
     </div>
 

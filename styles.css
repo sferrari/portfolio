@@ -9,20 +9,22 @@
 		:root {
 		  --headerfont: "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica", "Arial", sans-serif;
 		  --seriffont: "New York Medium", "Georgia", "Times New Roman", Times, serif;
-		  --sansfont: "Verdana", sans-serif;;
+		  --sansfont: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Verdana" sans-serif;
 		  --navfont: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Verdana", sans-serif;
-		  --systemfont: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	      --color-background: #f9f9f9;
+		  --systemfont: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Verdana", sans-serif;
+	      --color-background: #fcfcfc;
 	      --color-text-default: #393D44;
+	      --color-text-muted: #6C767F;
 	      --color-btn-link: #1a1a1a;
 	      --color-btn-outline-background: #1a1a1a;
 	      --color-jumbotron: #ffffff;
 	      --color-nav: #ffffff;
 	      --color-nav-link: #1a1a1a;
+	      --color-link: #B50010;
+	      --color-link-hover: #b50010;
 	      --color-card-background: #ffffff;
 	      --color-card-background-dark: #1a1a1a;
 	      --color-card-header: rgba(0, 0, 0, 0.03);
-	      
 
 		}
 
@@ -30,11 +32,14 @@
     		:root {
         	--color-background: #1a1a1a;
         	--color-text-default: #f0f2f3;
+        	--color-text-muted: #919aa1;
         	--color-btn-link: #f0f2f3;
         	--color-btn-outline-background: #f0f2f3;
         	--color-jumbotron: #121212;
         	--color-nav: #000000;
         	--color-nav-link: #ffffff;
+        	--color-link: #F7821B;
+        	--color-link-hover: #CF6407;
         	--color-card-background: #000000;
         	--color-card-background-dark: #000000;
         	--color-card-header: rgba(255, 255, 255, 0.2);
@@ -58,12 +63,6 @@
   		  margin-left: auto;
 	      
 	    }
-
-	    /*@media (min-width: 576px) {
-		  .container {
-		    max-width: 580px;
-		  }
-		}*/
 
 		@media (min-width: 768px) {
 		  .container {
@@ -101,8 +100,6 @@
 /*Jumbotron style*/
 
 		.jumbotron {
-		  
-		  /*padding: 16px 32px 8px 25px;*/
 		  padding: 0.8rem 0rem;
   		  margin-bottom: 2rem;
 		  background-color: var(--color-jumbotron);
@@ -110,65 +107,36 @@
 		}
 
 		.jumbotron .h1,.jumbotron h1 {
-        
           font-size: 3rem;
 		  font-weight: 200;
 		  line-height: 1.2;
+		  margin-bottom: 1rem;
 		
    		}
 
 		.jumbotron p {
-		  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+		  font-family: var(--systemfont);
 		  font-size: 1.2rem	
 		}
 
-   		
 
-		/*.jumbotron {
-		    padding: 2rem 1rem;
-		    margin-bottom: 2rem;
-		    background-color: #e9ecef;
-		    border-radius: .3rem
-		}
-
-		@media (min-width:576px) {
-		    .jumbotron {
-		        padding: 4rem 2rem
-		    }
-		}
-
-		*/
-
-
-	    /*h1 {
-	      margin-bottom: 1rem;
-	      margin-top: 1rem;
-	    }*/
-
-	    /*h1, h2, h3, h4, h5 {
-	    	font-family: var(--headerfont);
-	    	/*letter-spacing:1px;
-	    	line-height: 1.1;
-	    } */
-
-	    h2, h3, h4, h5, h6,
-		.h2, .h3, .h4, .h5, .h6 {
+	    h1, h2, h3, h4, h5, h6,
+		.h1, .h2, .h3, .h4, .h5, .h6 {
 		  font-family: var(--headerfont);
-		  margin-bottom: 1rem;
+		  margin-bottom: 0.8rem;
 		  font-weight: 500;
-		  line-height: 1.2;
+		  line-height: 1.5;
 		}
 
 		h1, .h1 {
 		  font-size: 2.03125rem;
-		  font-family: var(--headerfont);
 		  line-height: 1.2;
-		  margin-bottom: 1rem;
 	      margin-top: 1rem;
 		}
 
 		h2, .h2 {
 		  font-size: 1.625rem;
+		  line-height: 1.2;
 		}
 
 		h3, .h3 {
@@ -211,7 +179,7 @@
 	    }
 
 	    .text-muted {
- 			color: #919aa1 !important;
+ 			color: var(--color-text-muted) !important;
 		}
 
 		small, .small {
@@ -220,12 +188,12 @@
 		}
 
 		a {
-			color: #d9230f;
+			color: var(--color-link);
 			text-decoration: underline;
 		}
 
 		a:focus,a:hover {
-		    color: #91170a;
+		    color: var(--color-link-hover);
 		    text-decoration: underline
 		}
 
@@ -329,7 +297,7 @@
 		}
 
 		.page-header small {
-			color: #919aa1 !important;
+			color: var(--color-text-muted) !important;
 		}
 
 		sub,
@@ -539,9 +507,14 @@
     		/*grid-auto-rows: 75px;*/
 	    }
 
-		p.box, h2.box {
-			margin: 0rem 1.5rem 1rem 0rem ;
+		h2.box {
+			margin: 0rem 1.5rem 0.8rem 0rem ;
 			font-family: var(--headerfont);
+		}
+
+		p.box{
+			margin: 0rem 1.5rem 1rem 0rem ;
+			font-family: var(--systemfont);
 		}
 
 /*Button styles*/
@@ -720,11 +693,6 @@
 		    max-width: 20rem; 
 		    margin: 4px;
 		}
-
-		
-		/*div.boxes4 div.card:last-child {
-			margin-right: 32px;
-		}*/
 		
 
 		.card-body {
@@ -738,7 +706,7 @@
 		    margin-bottom: 0.75rem;
 		    text-transform: uppercase;
 			letter-spacing: 3px;
-			font-family: var(--sansfont); 
+			font-family: var(--systemfont); 
 			font-weight: bold;
 			font-size: 1rem;
 			margin-top: 0;
@@ -753,12 +721,20 @@
 		}
 
 		.card-text {
-			font-family: var(--headerfont);
+			font-family: var(--systemfont);
 			font-size: 1.125rem; 
 		}
 
 		.card-text:last-child {
 		    margin-bottom: 0
+		}
+
+		.card-text > a {
+		  color: #F7821B;
+		}
+
+		.card-text > a:hover {
+		  color: #CF6407;
 		}
 
 		.bg-primary {

@@ -58,7 +58,7 @@ include 'header.html';
           </div>
           <div>
             <h3>What We Accomplished</h3>
-            <p>Hy-Vee's Market Grille app (<a href="https://itunes.apple.com/us/app/market-grille/id1146933785?mt=8">App Store</a>|<a href="https://play.google.com/store/apps/details?id=com.hyvee.marketgrille">Google Play Store</a>) and <a href="https://marketgrille.hy-vee.com/">website</a> had already been built and launched by the time I began working on it. Most of the work I did on it is not yet publicly available so I can’t write about it here (<a href="https://sferrari.net/contact.php">get in touch</a>). But here are some features that are in the production app and website:</p>
+            <p>Hy-Vee's Market Grille app (<a href="https://itunes.apple.com/us/app/market-grille/id1146933785?mt=8">App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.hyvee.marketgrille">Google Play Store</a>) and <a href="https://marketgrille.hy-vee.com/">website</a> had already been built and launched by the time I began working on it. Most of the work I did on it is not yet publicly available so I can’t write about it here (<a href="https://sferrari.net/contact.php">get in touch</a>). But here are some features that are in the production app and website:</p>
 
               <ul>
                 <li>added <b>basket continuity</b> so that users can switch pickup locations and still retain the menu items they have in their cart</li>
@@ -121,7 +121,7 @@ include 'header.html';
       <div class="gridwrapper2">
           <div>
           <h3>Origin Story</h3>
-          <p>Hy-Vee engaged the The Nerdery to rebuild its flagship app natively for iOS and Android. This rebuilt app launched in September 2016. Hy-Vee's app (<a href="https://itunes.apple.com/us/app/hy-vee/id1133785983?mt=8">App Store</a>|<a href="https://play.google.com/store/apps/details?id=com.hyvee.android">Google Play Store</a>) has deals, coupons, lists, a tool for monitoring a fuel rewards program, and a section for renewing and transferring prescriptions, among other features. This app has more than a quarter million monthly active users.</p>
+          <p>Hy-Vee engaged the The Nerdery to rebuild its flagship app natively for iOS and Android. This rebuilt app launched in September 2016. Hy-Vee's app (<a href="https://itunes.apple.com/us/app/hy-vee/id1133785983?mt=8">App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.hyvee.android">Google Play Store</a>) has deals, coupons, lists, a tool for monitoring a fuel rewards program, and a section for renewing and transferring prescriptions, among other features. This app has more than a quarter million monthly active users.</p>
         </div>
 
         <div>

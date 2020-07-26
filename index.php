@@ -39,6 +39,23 @@ include 'header.html';
             <p class="box">I enjoy working within collaborative teams that are dedicated to craftsmanship, learning, and mutual respect. Building a trusting team and a sustainable process is a key part of my job.</p>
           </div>
        </div>
+      </div>
+
+      <div class="container">
+
+    <h2>Things to know about me</h2>
+
+      <ul>
+        <li>I have a passion for native mobile app design. As Luke Wroblewski eloquently put it, <a href="https://www.youtube.com/watch?v=xiyOTcVHqHw">native mobile apps "connect physical and digital spaces"</a> and that's a pretty exciting space to be in. I know Apple’s HIG and the Material Design guidelines well, and I stay up-to-date on the latest capabilities and design patterns offered by the platforms.</li>
+        <li>The article <a href="https://capwatkins.com/blog/the-boring-designer">“The Boring Designer”</a> by Cap Watkins encapsulates a lot of my thoughts on how designers should operate and work within a team.</li>
+        <li>This <a href="https://www.designbetter.co/podcast/marty-cagan">interview of Marty Cagan</a> describes pretty well the kind of product designer I aspire to be.</li>
+        <li>In another life, I might have been a librarian. I like to organize information and create documentation that can help the team and other designers find what they need.</li>
+        <li>Pithy opinions available on <a href="https://twitter.com/_sferrari">Twitter</a>.</li>
+        <li>Photography available on <a href="https://www.instagram.com/sebferrari/">Instagram</a>.</li>
+        <li>Being half Danish, I'm uncomfortable with how many times I have said "I" on this page 😬</li>
+        <li>Being half Argentinean, I'd like to tell you even more - maybe over coffee some time!☕️😀</li>
+      </ul>
+
      
 
        
